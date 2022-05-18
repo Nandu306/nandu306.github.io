@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               Jami Gibbs
-tagline:             Software Developer from Chicago.
+title:               Nandu Rajagopala
+tagline:             Building impactful digital products
 url:                 http://jamigibbs.com
 paginate:            1
 baseurl:             ""
@@ -17,18 +17,18 @@ sass:
 
 # About/contact
 author:
-  name:              Jami Gibbs
-  url:               https://twitter.com/jamigibbs
-  email:             jami0821@gmail.com
+  name:              Nandu Rajagopala
+  url:
+  email:             nandu.rajagopala@cantab.net
 
 # Custom vars
 version:             2.0.1
 github:
-  repo:              https://github.com/jamigibbs/portfolio
+  repo:              https://github.com/nandu306
 google_analytics:    UA-3363703-15
-twitter:             jamigibbs
-github:              jamigibbs
-dribbble:            jamigibbs
+twitter:
+github:              Nandu306
+dribbble:
 
 # Gems
 plugins:
