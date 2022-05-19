@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Nandu Rajagopala
 tagline:             Building impactful digital products
-url:                 http://jamigibbs.com
+url:
 paginate:            1
 baseurl:             ""
 
@@ -28,7 +28,7 @@ github:
 google_analytics:    UA-3363703-15
 twitter:
 github:              Nandu306
-dribbble:
+linkedin:            nandurajagopala
 
 # Gems
 plugins:
