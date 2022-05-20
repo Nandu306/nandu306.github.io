@@ -4,7 +4,7 @@
  <title>Nandu Rajagopala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-05-19T11:45:50+02:00</updated>
+ <updated>2022-05-20T16:23:45+02:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nandu Rajagopala</name>
@@ -17,7 +17,7 @@
    <link href="http://localhost:4000/2022/05/18/mojo/"/>
    <updated>2022-05-18T00:00:00+02:00</updated>
    <id>http://localhost:4000/2022/05/18/mojo</id>
-   <content type="html">&lt;p&gt;An online homework-setting tool for school teachers.&lt;/p&gt;
+   <content type="html">&lt;p&gt;An online assignment-setting tool for school teachers.&lt;/p&gt;
 
 &lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and PostgreSQL.&lt;/p&gt;
 </content>

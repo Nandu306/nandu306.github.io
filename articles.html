@@ -1,0 +1,47 @@
+---
+title: Articles
+---
+
+{% include head.html %}
+
+<body>
+
+  <div class="row">
+
+      <div class="large-6 large-offset-3 columns">
+
+        <div class="content-section">
+          <h2>Articles</h2>
+
+          <p>
+            These are some of the thought processes that went into building my products.
+          </p>
+
+        </div>
+
+        <main>
+
+          <div>
+
+            {% for article in site.articles %}
+              <div class="post-post">
+                <h3><a href="{{ article.site }}" target="_blank">{{ article.title }}</a></h3>
+
+                {{ article.description }}
+
+                <hr />
+              </div>
+            {% endfor %}
+          </div>
+
+        </main>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+
+

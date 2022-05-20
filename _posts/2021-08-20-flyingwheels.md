@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🚲 Flying Wheels
-git: https://github.com/jamigibbs/bb
+git: https://github.com/Nandu306/Flying_Wheels
 site: http://jamigibbs.github.io/bb
 ---
 

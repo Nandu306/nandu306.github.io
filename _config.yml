@@ -34,3 +34,10 @@ linkedin:            nandurajagopala
 plugins:
   # - jekyll-paginate
   # - jekyll-gist
+
+
+#collections
+collections:
+  articles:
+    output: true
+    # permalink: /articles/:path
