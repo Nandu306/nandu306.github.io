@@ -17,7 +17,7 @@ But reading is one thing but living through it is another. I have summarised bel
 my experience in building a usable product for the first time and the lessons
 that it reinforced. I call it reinforced because, through reading/classes etc,
 I was familiar with some version of these lessons but being in the thick of
-things throws up a whole new set of challenges.
+things throws a whole new set of challenges.
 
 _Lesson One: First, own the problem space_
 

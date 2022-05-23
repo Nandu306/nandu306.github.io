@@ -7,10 +7,11 @@
 
   <div class="row">
 
-    <div class="large-6 large-offset-3 columns">
+    <div class="large-6 large-offset-3 columns main-container">
 
       <main>
         <h2> {{ page.title }} </h2>
+        <small> {{ page.date | date: "%b %Y" }}</small>
 
           <div class="article-text">
 
@@ -20,7 +21,7 @@
 
       </main>
 
-      <footer>
+      <footer class="footer-position">
 
         <p class="copyright">
           <!-- &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. -->
@@ -29,6 +30,8 @@
       </footer>
 
     </div>
+
+
 
     <div class="large-2 large-offset-1 columns social">
       <ul>
@@ -52,6 +55,8 @@
     </div>
 
   </div>
+
+
 
   {% if site.google_analytics %}
   <script>
