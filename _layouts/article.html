@@ -6,56 +6,21 @@
 <body>
 
   <div class="row">
-    <div class="large-12 large-centered columns">
-
-      <header class="masthead">
-        <img src="{{ site.baseurl }}/public/profile.png" alt="Nandu Rajagopala">
-      </header>
-
-    </div>
-  </div>
-
-  <div class="row">
 
     <div class="large-6 large-offset-3 columns">
 
-      <div class="content-section">
-
-        <p>
-          Hey! 👋🏽 My name is Nandu and I build software products. When not building a <a href="http://www.mojolearninglabs.com" target="_blank">cool side project</a> or sharpening my product/coding skills or wearing my MBA hat, you can find me reading a detective novel in a Berlin café.
-        </p>
-
-      </div>
-
       <main>
-        <h2> Projects </h2>
-        {% for post in site.posts %}
-          <div class="post-post">
-            <h3><a href="{{ post.site }}" target="_blank">{{ post.title }}</a></h3>
+        <h2> {{ page.title }} </h2>
 
-            {{ post.content }}
+          <div class="article-text">
 
-            <ul>
-              <li><a href="{{ post.git }}" target="_blank"><i class="fa fa-github"></i></a></li>
-              {% if post.site %}
-              <li><a href="{{ post.site }}" target="_blank"><i class="fa fa-link"></i></a></li>
-              {% endif %}
-            </ul>
+            {{ content }}
 
-            <hr />
           </div>
-        {% endfor %}
+
       </main>
 
       <footer>
-        <h2>Get In Touch!</h2>
-
-        <p>
-          Send me an
-          <a href="mailto:nandu.rajagopala@cantab.net?Subject=Hello,%20Nandu!">email</a> or message me on
-          <a href="https://www.linkedin.com/in/nandurajagopala
-">Linkedin</a> if you’re into that sort of thing.
-        </p>
 
         <p class="copyright">
           <!-- &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. -->

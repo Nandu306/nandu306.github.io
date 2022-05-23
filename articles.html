@@ -12,22 +12,20 @@ title: Articles
 
         <div class="content-section">
           <h2>Articles</h2>
-
-          <p>
-            These are some of the thought processes that went into building my products.
-          </p>
-
         </div>
 
         <main>
 
           <div>
 
-            {% for article in site.articles %}
-              <div class="post-post">
-                <h3><a href="{{ article.site }}" target="_blank">{{ article.title }}</a></h3>
+            {% for article in site.articles reversed %}
 
-                {{ article.description }}
+              <div class="post-post">
+                <small> {{ article.date | date: "%b %Y" }}</small>
+                <h3><a href="{{ article.url }}">{{ article.title }}</a></h3>
+
+                <p> {{ article.description }} </p>
+
 
                 <hr />
               </div>

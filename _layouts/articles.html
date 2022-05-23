@@ -2,22 +2,20 @@
 layout: default
 ---
 
-      <main>
 
-        <div class="p-5">
-          <h2>Articles</h2>
+
+        <div>
           {% for article in site.articles %}
             <div class="post-post">
-              <h3><a href="{{ article.site }}" target="_blank">{{ article.title }}</a></h3>
+              <h3><a href="{{ article.url }}" target="_blank">{{ article.title }}</a></h3>
 
-              {{ article.description }}
+              <p> {{ article.description }} </p>
 
               <hr />
             </div>
           {% endfor %}
         </div>
 
-      </main>
 
 
 

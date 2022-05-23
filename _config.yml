@@ -25,7 +25,7 @@ author:
 version:             2.0.1
 github:
   repo:              https://github.com/nandu306
-google_analytics:    UA-3363703-15
+google_analytics:
 twitter:
 github:              Nandu306
 linkedin:            nandurajagopala
@@ -40,4 +40,4 @@ plugins:
 collections:
   articles:
     output: true
-    # permalink: /articles/:path
+    permalink: /articles/:path
