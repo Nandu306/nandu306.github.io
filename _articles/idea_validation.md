@@ -45,13 +45,13 @@ image that I had in mind of a teacher was the one that I had myself encountered
 at school: not very tech savvy nor open to embracing the tools of the future.
 
 ![Teachers' dashboard](/public/mojo-1.png)
-*Figure 1: Teachers' Dashboard*
+*Teachers' Dashboard*
 
 ![Assignment setting](/public/mojo-2.png)
-*Figure 2: Assignment setting*
+*Assignment setting*
 
 ![Students' Dasnboard](/public/mojo-3.png)
-*Figure 3: Students' Dashboard*
+*Students' Dashboard*
 
 It was an awakening of sorts when the first teacher, after patiently listening
 to my product demo, asked me how it was different to Google Classrooms. I
@@ -139,6 +139,5 @@ week, I had about fifty people who had signed up to receive a notification on
 launch. Fifty who I could potentially have one-on-one conversations with.
 
 ![Students' Dasnboard](/public/mojo-4.png)
-*Figure 4: The landing page test*
-
+*The landing page test*
 
