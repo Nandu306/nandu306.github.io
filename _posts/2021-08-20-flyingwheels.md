@@ -2,7 +2,7 @@
 layout: post
 title: 🚲 Flying Wheels
 git: https://github.com/Nandu306/Flying_Wheels
-site: http://jamigibbs.github.io/bb
+site: https://flying-wheels.herokuapp.com/
 ---
 
 A marketplace to rent bikes.

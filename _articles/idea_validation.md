@@ -1,29 +1,30 @@
 ---
 layout: article
-title: Lessons learnt in deciding what to build
-description: xxx
+title: Validating product ideas — lessons learnt
+description: Validating product ideas is an iterative, experimental and subjective process, with the chances of having to pivot many times over being high. Regardless of what I’d read before, validating an idea for an EdTech product was an illuminating experience.
 date: 22 May 2022
 ---
 
-The one thing I realised when trying to validate ideas was how
-experimental and iterative the whole process is. I doubt if anyone who launches
-a successful product ever does so fully knowing what form it would finally take
-or if their target users are ever going to grab it off their hands. I've read that
-achieving product-market fit takes some time, even for the products that are
-now well established and considered as household names (Instagram, for example,
-started off as location-sharing app).
+The one thing that I realised when trying to validate product ideas was how
+experimental and iterative and subjective the whole process tends to be. I
+doubt if anyone who launches a successful product ever does so fully knowing
+what form it would finally take or if it would ever go down as intended with
+their target user base. Of course, there are well-known examples of now
+household brands having to change course when they first started out:
+Instagram, for example, started off as location-sharing app.
 
-But reading is one thing but living through it is another. I have summarised below
-my experience in building a usable product for the first time and the lessons
-that it reinforced. I call it reinforced because, through reading/classes etc,
-I was familiar with some version of these lessons but being in the thick of
-things throws a whole new set of challenges.
+But reading is one thing and living through it is another. I have summarised
+below my experience in building a usable product for the first time and the
+lessons that it reinforced. I call it reinforced because, through
+reading/classes etc, some version of these lessons had been wedged somewhere in
+my head but being in the thick of things brought them to the fore and also
+threw a whole new set of challenges that showed idea validation in new light.
 
 _Lesson One: First, own the problem space_
 
 Fresh from a coding bootcamp, I was raging to put my newfound skills to
 practise. I plunged into action right away and settled for one of the first
-product ideas that came to my head: an online assessment tool for school
+product ideas that came to my mind: an online assessment tool for school
 teachers. Given the media coverage around the pandemic’s adverse effects on
 school education at the time, I suspect that I might have subconsciously been
 influenced by the world around me. That, and a soft spot for the education
@@ -58,12 +59,12 @@ remember mumbling something about the app being more intuitive and easier to
 use. But, I knew in my heart of hearts, that it was not a compelling reason for
 anyone to undertake a significant shift in their way of working. Another
 conversation with another school went the same way. It took a moment of
-discomfort (embarrassment, if you will) for it to sink in that schools had
-adapted for the pandemic and that I was putting the cart before the horse. If I
-were building a product that was actually going to be used by real people, I
-should have been talking to those people first. I should have first immersed
-myself in that space, identified what their problems were and whether the
-problem was painful enough for them to resolve by dishing out money.
+discomfort for it to sink in that schools had adapted for the pandemic and that
+I was putting the cart before the horse. Indirectly, I'd embodied what those with
+some technical skills fall prey to: rushing to build. The target user base and
+their problems should have come first. I should have first immersed myself in
+that space, identified what schools' needs/wants/desires were and whether the problem was
+painful enough for them to resolve by paying money.
 
 The conversations weren’t a total disaster though. I switched gears half-way
 through the conversation and used the opportunity to find out more about the
@@ -86,27 +87,28 @@ referring to the product I had built. I quickly discovered that cold emails
 where I asked for time for research purposes mostly went unanswered. Even the
 attempts to source conversations through my personal networks were
 unsuccessful: the teachers were either sceptical about confidentiality issues
-or they just couldn't find the time to have a chat.
+or they just could find time to have a chat.
 
 Searching for alternative means of connecting with the target user base, I
 discovered that there were several Facebook groups that brought together
-teachers from various backgrounds and interests: there was one for science
-teachers, another for xxx and xxxx. I joined all the groups that I could find,
-even related ones like those for parents who homeschool their children. I had
-now had a means of engaging with the people that I had been struggling to
-connect with before.
+teachers from various backgrounds and interests: there were several for science
+teachers, online tutors and even one for parents prepping their children for
+competitive school exams. I joined all the groups that I could find, even
+related ones like those for parents who homeschool their children. I had now
+had a means of engaging with the people that I had been struggling to connect
+with before.
 
 I spent a few weeks taking a back seat and quietly reading some of the posts
-that cropped up in the group and the comments those posts garnered. The Science
-group was particularly active; the posts ranged from asking where to find
-questions to ideas for practical work to doubts about certain aspects of
-science. Once I figured out the lay of the land, I posted a simple question to
-the group: What were their biggest issues when it came to teaching science?
-Reflecting on it now, it probably was a leading question but I wanted to spark
-off a conversation and follow up individually to those who responded.
+that cropped up in the group and the comments those posts garnered. One of the
+science groups was particularly active; the posts ranged from asking where to
+find questions to ideas for practical work to help with lesson planning. Once I
+figured out the lay of the land, I posted a simple question to the group: What
+were their biggest issues when it came to teaching science? Looking back on it
+now, it probably was a leading question but I wanted to get spark off a
+conversation and follow up individually to those who responded.
 
 Judging by the number of responses generated within a few hours on a Sunday
-morning, I seemed to have struck a chord. Replies ranged from the workload
+morning, I seem to have struck a chord. Replies ranged from the workload
 associated with ongoing assessments to how broken science teaching at school
 really was (“My degree is in biology, but I have to teach physics as well”; “We
 just don’t have the time to make science relevant”; “I sometimes have to teach
@@ -130,11 +132,13 @@ and teachers was so arduous, how difficult would sales be when it comes to that
 stage?
 
 Again, to test out my hypothesis, I put together a landing page which
-highlighted some product benefits (distilled from the Facebook interactions)
+highlighted some product benefits (distilled from my user research)
 and shared the web link on the Facebook groups that I was part of (I had now
 joined various education-focused groups for parents by this time). Within a
 week, I had about fifty people who had signed up to receive a notification on
-launch. Fifty who I could potentially have one-on-one conversations with. Just
-for the record, an email blast to this group of people requesting time for a
-quick chat yielded about 3 responses. Again, this gives an indication of the
-type of customer that I would be dealing with if I were to go down this route.
+launch. Fifty who I could potentially have one-on-one conversations with.
+
+![Students' Dasnboard](/public/mojo-4.png)
+*Figure 4: The landing page test*
+
+
