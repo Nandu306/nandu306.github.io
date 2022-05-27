@@ -4,7 +4,7 @@
  <title>Nandu Rajagopala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-05-26T16:13:07+02:00</updated>
+ <updated>2022-05-27T18:28:47+02:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nandu Rajagopala</name>
@@ -17,7 +17,12 @@
    <link href="http://localhost:4000/2022/05/18/mojo/"/>
    <updated>2022-05-18T00:00:00+02:00</updated>
    <id>http://localhost:4000/2022/05/18/mojo</id>
-   <content type="html">&lt;p&gt;An online assignment-setting tool for school teachers.&lt;/p&gt;
+   <content type="html">&lt;p&gt;An online assignment-setting tool for school teachers. Students are invited via
+email and can join classes that are available for their year group at their
+school. Teachers can create classes as required and set assignments consisting
+of various questions (including an image) and answer choices. Students receive
+grades upon assignment submission and teachers obtain a markbook with
+student performance and average scores.&lt;/p&gt;
 
 &lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and PostgreSQL.&lt;/p&gt;
 </content>
@@ -28,7 +33,7 @@
    <link href="http://localhost:4000/2021/09/20/soundbox/"/>
    <updated>2021-09-20T00:00:00+02:00</updated>
    <id>http://localhost:4000/2021/09/20/soundbox</id>
-   <content type="html">&lt;p&gt;A tool for searching iTunes Podcasts.&lt;/p&gt;
+   <content type="html">&lt;p&gt;SoundBox allows you to search and discover podcasts of interest on Apple’s iTunes.&lt;/p&gt;
 
 &lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and Apple APIs.&lt;/p&gt;
 </content>
@@ -39,7 +44,7 @@
    <link href="http://localhost:4000/2021/08/20/flyingwheels/"/>
    <updated>2021-08-20T00:00:00+02:00</updated>
    <id>http://localhost:4000/2021/08/20/flyingwheels</id>
-   <content type="html">&lt;p&gt;A marketplace to rent bikes.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Flying Wheels is a marketplace for renting bikes. List bikes online and approve/reject booking requests.&lt;/p&gt;
 
 &lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and PostgreSQL.&lt;/p&gt;
 </content>
