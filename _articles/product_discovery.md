@@ -1,12 +1,12 @@
 ---
 layout: article
-title: Validating product ideas — lessons learnt
-description: Validating product ideas is an iterative, experimental and subjective process, with the chances of having to pivot many times over being high. Regardless of what I’d read before, validating an idea for an EdTech product was an illuminating experience.
-date: 22 May 2022
+title: Discovering what to build — lessons learnt
+description: Product discovery is an iterative, experimental and subjective process, with the chances of boiling the ocean and having to pivot many times over being high. Regardless of what I’d read before, finding compelling products to build in the EdTech space was an illuminating experience.
+date: April 2022
 ---
 
-The one thing that I realised when trying to validate product ideas was how
-experimental and iterative and subjective the whole process tends to be. I
+The one thing that I realised when trying to figure out what to build was how
+experimental, iterative and subjective the whole process tends to be. I
 doubt if anyone who launches a successful product ever does so fully knowing
 what form it would finally take or if it would ever go down as intended with
 their target user base. Of course, there are well-known examples of now
@@ -14,13 +14,13 @@ household brands having to change course when they first started out:
 Instagram, for example, started off as location-sharing app.
 
 But reading is one thing and living through it is another. I have summarised
-below my experience in building a usable product for the first time and the
+below my experience in trying to figure out what to build in the EdTech space and the
 lessons that it reinforced. I call it reinforced because, through
-reading/classes etc, some version of these lessons had been wedged somewhere in
-my head but being in the thick of things brought them to the fore and also
-threw a whole new set of challenges that showed idea validation in new light.
+reading/classes etc, some version of these lessons had been wedged in
+my head somewhere but being in the thick of things brought them to the fore and also
+threw a whole new set of challenges that showed product discovery in new light.
 
-_Lesson One: First, own the problem space_
+### Lesson One: First, own the problem space
 
 Fresh from a coding bootcamp, I was raging to put my newfound skills to
 practise. I plunged into action right away and settled for one of the first
@@ -44,13 +44,13 @@ them my handiwork. For some reason, in that adrenaline-fuelled moment, the
 image that I had in mind of a teacher was the one that I had myself encountered
 at school: not very tech savvy nor open to embracing the tools of the future.
 
-![Teachers' dashboard](/public/mojo-1.png)
+[![Teachers' dashboard](/public/mojo-1.png)](/public/mojo-1.png)
 *Teachers' Dashboard*
 
-![Assignment setting](/public/mojo-2.png)
+[![Assignment setting](/public/mojo-2.png)](/public/mojo-2.png)
 *Assignment setting*
 
-![Students' Dasnboard](/public/mojo-3.png)
+[![Students' Dasnboard](/public/mojo-3.png)](/public/mojo-3.png)
 *Students' Dashboard*
 
 It was an awakening of sorts when the first teacher, after patiently listening
@@ -63,7 +63,7 @@ discomfort for it to sink in that schools had adapted for the pandemic and that
 I was putting the cart before the horse. Indirectly, I'd embodied what those with
 some technical skills fall prey to: rushing to build. The target user base and
 their problems should have come first. I should have first immersed myself in
-that space, identified what schools' needs/wants/desires were and whether the problem was
+that space, identified what schools' needs/problems/desires were and whether they were
 painful enough for them to resolve by paying money.
 
 The conversations weren’t a total disaster though. I switched gears half-way
@@ -75,33 +75,34 @@ Classrooms or Microsoft Teams, and would probably never be. However, I knew
 that there were many products in the market that addressed these issues in
 various ways. Was there a gap in the market? Or was there something that
 current players don’t cater fully to? My curiosity now stoked, I parked my app
-to one side and set about trying to better understand the space.
+to one side and set about trying to better understand the secondary schools space.
 
 
-_Lesson Two: Get creative when trying to understand and connect with your target
- audience_
+### Lesson Two: Get creative when trying to understand and connect with your target audience
 
 I seemed to have had crude luck when sourcing teachers for my first two
 conversations. It was either that or I was only able to get their attention by
-referring to the product I had built. I quickly discovered that cold emails
-where I asked for time for research purposes mostly went unanswered. Even the
+referring to the product I had built. I quickly found out that cold emails
+where I asked time for research purposes mostly went unanswered. Even the
 attempts to source conversations through my personal networks were
 unsuccessful: the teachers were either sceptical about confidentiality issues
-or they just could find time to have a chat.
+or they just couldn't find the time to have a chat. Perhaps it might have been
+different if I had given some sort of incentive such as gift vouchers, but I didn't
+want to go down that route.
 
 Searching for alternative means of connecting with the target user base, I
 discovered that there were several Facebook groups that brought together
-teachers from various backgrounds and interests: there were several for science
+teachers with various interests and from various backgrounds: there were several for science
 teachers, online tutors and even one for parents prepping their children for
-competitive school exams. I joined all the groups that I could find, even
-related ones like those for parents who homeschool their children. I had now
+competitive school exams. I joined all the groups that I could find including
+related ones like those for parents who homeschool their children. I now had
 had a means of engaging with the people that I had been struggling to connect
 with before.
 
 I spent a few weeks taking a back seat and quietly reading some of the posts
 that cropped up in the group and the comments those posts garnered. One of the
 science groups was particularly active; the posts ranged from asking where to
-find questions to ideas for practical work to help with lesson planning. Once I
+find assessment questions to ideas for practical work to help with lesson planning. Once I
 figured out the lay of the land, I posted a simple question to the group: What
 were their biggest issues when it came to teaching science? Looking back on it
 now, it probably was a leading question but I wanted to get spark off a
@@ -116,8 +117,7 @@ maths as well because the maths teacher hasn’t covered the topic yet.”). Hav
 been a science student myself, I could relate to why providing an effective
 science lesson was a challenge to most teachers.
 
-_Lesson Three: Talking to users tells you whether you’d enjoy
- having them as customers as well_
+### Lesson Three: Looking for and talking to users tells you something about the sales process as well
 
 The replies from science teachers allowed me to think a bit more about what they
 were trying to achieve, or as a popular framework puts it, their ‘jobs to be
@@ -132,12 +132,11 @@ and teachers was so arduous, how difficult would sales be when it comes to that
 stage?
 
 Again, to test out my hypothesis, I put together a landing page which
-highlighted some product benefits (distilled from my user research)
-and shared the web link on the Facebook groups that I was part of (I had now
-joined various education-focused groups for parents by this time). Within a
+highlighted some key problems (distilled from my user research)
+and shared the web link on the Facebook groups that I was part of. Within a
 week, I had about fifty people who had signed up to receive a notification on
-launch. Fifty who I could potentially have one-on-one conversations with.
+launch. Fifty with whom I could potentially have one-on-one conversations with to either refine the idea or stumble upon new ones.
 
-![Students' Dasnboard](/public/mojo-4.png)
+[![Students' Dasnboard](/public/mojo-4.png)](/public/mojo-4.png)
 *The landing page test*
 
