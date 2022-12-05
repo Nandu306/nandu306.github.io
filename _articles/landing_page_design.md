@@ -10,9 +10,9 @@ up the goal of a landing page as showing users where to go and providing
 answers to the following three questions as being key to achieving that:
 
 
-<li> What is this? </li> {: style="color: #8e8e8e;margin: 20px 0 0 0;line-height: 1.9;font-size: 15px;padding-right: 10px;margin-top: 10px;" }
-<li> What’s in it for me? </li> {: style="color: #8e8e8e;margin: 20px 0 0 0;line-height: 1.9;font-size: 15px;padding-right: 10px;margin-top: 10px;" }
-<li> What do I do next? </li>{: style="color: #8e8e8e;margin: 20px 0 0 0;line-height: 1.9;font-size: 15px;padding-right: 10px;margin-top: 10px;" }
+<li> 1. What is this? </li>
+<li> 2. What’s in it for me? </li>
+<li> 3. What do I do next? </li>
 
 
 When crafting my own landing page to test an idea, I used Marsh’s questions
