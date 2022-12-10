@@ -137,6 +137,6 @@ and shared the web link on the Facebook groups that I was part of. Within a
 week, I had about fifty people who had signed up to receive a notification on
 launch. Fifty with whom I could potentially have one-on-one conversations with to either refine the idea or stumble upon new ones.
 
-[![Students' Dasnboard](/public/mojo-4.png)](/public/mojo-4.png)
+[![Students' Dashboard](/public/mojo-4.png)](/public/mojo-4.png)
 *The landing page test*
 
