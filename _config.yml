@@ -34,6 +34,9 @@ linkedin:            nandurajagopala
 plugins:
   # - jekyll-paginate
   # - jekyll-gist
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 
 #collections
