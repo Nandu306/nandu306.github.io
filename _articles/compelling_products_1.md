@@ -117,7 +117,7 @@ Based on the above attributes, the charts below depict some of the possible comb
 If this product fails in the future, why would that have happened? Asking yourself this question early on forces you to visualise scenarios that could crop up in the future and thereby refine your offering before you go-to-market. In my case, these were some of the issues that I could identify:
 
 
-<li> - Companies not being open to temporary, remote staff, either because of policy or security </li>
+<li> Companies not being open to temporary, remote staff, either because of policy or security </li>
 <li> - Not able to source enough local talent who meet Western company specs (i.e. not enough relevant experience, knowledge of the right languages) </li>
 <li> - Talent not performing on the job </li>
 <li> - Costs of the new hire not a dealbreaker to most  tech companies, whereas capability is </li>
