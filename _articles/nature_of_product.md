@@ -19,7 +19,7 @@ I’ve summarised below some of my other takeaways from the podcast:
 
 - Cagan also suggests a model for product teams to work effectively. Once a problem has been validated and a solution is being discovered, it is the product manager’s responsibility to ensure that whatever the team decides upon is **valuable** and **viable**. The engineering and design teams would, for their part, assess the feasibility (can we build this solution?) and usability (can the user easily accomplish the task?) of the solution respectively. This essentially means that a product manager should have direct access to customers, to the engineering team and the various stakeholders. Cagan says that this direct and unencumbered access is non-negotiable, and a prerequisite for a product manager to succeed in their role.
 
-- Useful tip: When you do user research, you do it to find out all the reasons why users **won’t** use your product
+- Useful tip: When you do user research, you do it to find out all the reasons why users **won’t** use your product.
 
 - Product managers should be well-versed in four areas: the users and the customers; how the product is being used; how products fits into the bigger picture of the organisation; and, the overall industry and competition.
 
