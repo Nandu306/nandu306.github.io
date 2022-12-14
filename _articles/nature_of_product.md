@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The nature of product
-description: A summary of Marty Cagan's stance on product management and how to be a more product-led organisation
+description: A summary of Marty Cagan's stance on product management and how to be a more product-led organisation.
 date: August 2022
 ---
 
