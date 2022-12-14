@@ -9,9 +9,10 @@ I recently undertook a project for a German-backed upskilling provider in West A
 
 To create a first-iteration recipe, I combed through some popular product books such as _Well-Designed_, _Customer Discovery Habits_ and _The Lean Product Playbook_, and blended some of the concepts outlined. This blog post not only captures some of the key takeaways from these books for my future reference but also provides applied examples that demonstrate how some of the techniques could be used in real-life. I have leant towards a more user-centred approach that focuses on customer opportunities (needs, desires, pain-points). I feel that such an approach encourages exploration and places more weight on innovation/differentiation (rather than the popular lean process of building something quickly, flinging it out to the market and seeing if the product in question sinks or swims). I’m not advocating one school of product development over another, but spending some extra time to get under the skin of the user/customer resonated with me.
 
-
-  <li> 1. Understand the market to carve out a space </li>
-  <li> 2. Dig-deep via customer interviews </li>
-  <li> 3. Map opportunities to business outcome. Use this to formulate solutions and assumptions </li>
-  <li> 4. Identify the core features for the product in question; also, performance-drivers and differentiators </li>
-  <li> 5. Build a prototype and gather feedback </li>
+<ol>
+  <li> Understand the market to carve out a space </li>
+  <li> Dig-deep via customer interviews </li>
+  <li> Map opportunities to business outcome. Use this to formulate solutions and assumptions </li>
+  <li> Identify the core features for the product in question; also, performance-drivers and differentiators </li>
+  <li> Build a prototype and gather feedback </li>
+</ol>

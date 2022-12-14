@@ -9,11 +9,11 @@ In _UX For Beginners: A Crash Course in 100 Short Lessons_, Joel Marsh sums
 up the goal of a landing page as showing users where to go and providing
 answers to the following three questions as being key to achieving that:
 
-
-<li> 1. What is this? </li>
-<li> 2. What’s in it for me? </li>
-<li> 3. What do I do next? </li>
-
+<ul>
+  <li> What is this? </li>
+  <li> What’s in it for me? </li>
+  <li> What do I do next? </li>
+</ul>
 
 When crafting my own landing page to test an idea, I used Marsh’s questions
 as a framework to structure the information. The only addition that I made was

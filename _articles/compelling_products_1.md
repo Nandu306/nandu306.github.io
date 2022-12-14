@@ -23,12 +23,12 @@ Once you’ve gathered your signals, you can use certain tools to make sense of 
 
 I’ve outlined below some of the tools that I used to consider my vision/strategy: value-goal statements, user-attribute matrices and pre-mortems.
 
-<li> 1. Value-goal statement: </li> {: style="color: black; font-weight:bold; margin-top: 20px;" }
+<li> Value-goal statement: </li> {: style="color: black; font-weight:bold; margin-top: 20px;" }
 Why am I building the product? How would this fit into universal themes such as love, connection, respect, pride etc? Thinking of yourself being in charge of a value rather than a product can be a means of filtering what you don’t want to focus on.
 
 As an example: _I help connect untapped tech talent in Africa with world-class opportunities in Europe. Unlike LinkedIn, our talent profiles are internally vetted and the employers who use our site are actively looking to hire African talent._ Essentially: plugging the gap between talent and opportunity.
 
-<li> 2. User-attribute matrices: </li> {: style="color: black; font-weight:bold; margin-top: 20px;" }
+<li> User-attribute matrices: </li> {: style="color: black; font-weight:bold; margin-top: 20px;" }
 These are 2-by-2 diagrams to tease out any relations between different communities. The first step is to identify the different groups of users who might be using your product. The second is to ascertain what differentiates them so that you can make a list of factual and emotional attributes. The third is to plot these attributes against one another to generate insights: areas that are best avoided or best explored from a positioning perspective.
 
 <p> These steps are best illustrated by an example. For a job board focused on tech talent the users would be: </p> {: style="margin-bottom: 20px;" }
@@ -112,17 +112,17 @@ Based on the above attributes, the charts below depict some of the possible comb
 [![Matrices](/public/chart2.png)](/public/chart2.png)
 *Figure 2: Matrices to elicit insights (click to enlarge)*
 
-<li> 3. Pre-mortem: </li> {: style="color: black; font-weight:bold; margin-top: 20px;" }
+<li> Pre-mortem: </li> {: style="color: black; font-weight:bold; margin-top: 20px;" }
 
 If this product fails in the future, why would that have happened? Asking yourself this question early on forces you to visualise scenarios that could crop up in the future and thereby refine your offering before you go-to-market. In my case, these were some of the issues that I could identify:
 
 
-<li> - Companies not being open to temporary, remote staff, either because of policy or security </li>
-<li> - Not able to source enough local talent who meet Western company specs (i.e. not enough relevant experience, knowledge of the right languages) </li>
-<li> - Talent not performing on the job </li>
-<li> - Costs of the new hire not a dealbreaker to most  tech companies, whereas capability is </li>
-<li> - Pricing not in line with employer expectations </li>
-<li> - Apart from cost, the product doesn’t offer anything new compared with other tech-focused job sites </li>
+  - Companies not being open to temporary, remote staff, either because of policy or security
+  - Not able to source enough local talent who meet Western company specs (i.e. not enough relevant experience, knowledge of the right languages)
+  - Talent not performing on the job
+  - Costs of the new hire not a dealbreaker to most  tech companies, whereas capability is
+  - Pricing not in line with employer expectations
+  - Apart from cost, the product doesn’t offer anything new compared with other tech-focused job sites
 
 To wrap things up, the first step in building a product is immersing yourself in your target market and getting a feel for the macro picture: community trends and market forces. The next step is to deep-dive into individual behaviour and understand the needs and wants on a micro level.
 
