@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nandu Rajagopala</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2022-12-22T17:41:51+01:00</updated>
- <id>http://localhost:4000</id>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2023-01-02T14:38:41+01:00</updated>
+ <id></id>
  <author>
    <name>Nandu Rajagopala</name>
    <email>nandu.rajagopala@cantab.net</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>🏜 Azubi Africa</title>
-   <link href="http://localhost:4000/2022/07/07/azubi/"/>
+   <link href="/2022/07/07/azubi/"/>
    <updated>2022-07-07T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2022/07/07/azubi</id>
+   <id>/2022/07/07/azubi</id>
    <content type="html">&lt;p&gt;Azubi, backed by Deutsche Bildung, provides upskilling courses in coding and web development in West Africa. Since the business model in place was success-based, I explored products that would increase job placement and generate additional upfront revenue streams for the business. The work not only involved big-picture strategic analysis but also touched on various aspects of the product development lifecycle.&lt;/p&gt;
 
 &lt;p&gt;Areas covered: Product Development, Design Thinking, Market and Competitor Research, UX/UI, Product Vision/Strategy and Financial Analysis&lt;/p&gt;
@@ -25,9 +25,9 @@
  
  <entry>
    <title>🎓 Mojo Learning Labs</title>
-   <link href="http://localhost:4000/2022/05/18/mojo/"/>
+   <link href="/2022/05/18/mojo/"/>
    <updated>2022-05-18T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2022/05/18/mojo</id>
+   <id>/2022/05/18/mojo</id>
    <content type="html">&lt;p&gt;An online assignment-setting tool for school teachers. Students are invited via
 email and can join classes that are available for their year group at their
 school. Teachers can create classes as required and set assignments consisting
@@ -41,9 +41,9 @@ student performance and average scores.&lt;/p&gt;
  
  <entry>
    <title>🎙 SoundBox</title>
-   <link href="http://localhost:4000/2021/09/20/soundbox/"/>
+   <link href="/2021/09/20/soundbox/"/>
    <updated>2021-09-20T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2021/09/20/soundbox</id>
+   <id>/2021/09/20/soundbox</id>
    <content type="html">&lt;p&gt;SoundBox allows you to search and discover podcasts of interest on Apple’s iTunes.&lt;/p&gt;
 
 &lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and Apple APIs.&lt;/p&gt;
@@ -52,9 +52,9 @@ student performance and average scores.&lt;/p&gt;
  
  <entry>
    <title>🚲 Flying Wheels</title>
-   <link href="http://localhost:4000/2021/08/20/flyingwheels/"/>
+   <link href="/2021/08/20/flyingwheels/"/>
    <updated>2021-08-20T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2021/08/20/flyingwheels</id>
+   <id>/2021/08/20/flyingwheels</id>
    <content type="html">&lt;p&gt;Flying Wheels is a marketplace for renting bikes. You can list bikes online and approve/reject booking requests.&lt;/p&gt;
 
 &lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and PostgreSQL.&lt;/p&gt;
@@ -63,9 +63,9 @@ student performance and average scores.&lt;/p&gt;
  
  <entry>
    <title>💊 Arete Medical</title>
-   <link href="http://localhost:4000/2018/11/01/arete/"/>
+   <link href="/2018/11/01/arete/"/>
    <updated>2018-11-01T00:00:00+01:00</updated>
-   <id>http://localhost:4000/2018/11/01/arete</id>
+   <id>/2018/11/01/arete</id>
    <content type="html">&lt;p&gt;Funded by Innovate UK, Arete’s goal was to develop a holistic (hardware and software) product for chronic asthmatics. I spoke to both patients and health practitioners to understand user needs and wants, and defined core features. The work also involved building a business case for tackling the COPD market in the US.&lt;/p&gt;
 
 &lt;p&gt;Areas covered: User Research, Market Sizing, Strategy, Competitor and Financial Analysis&lt;/p&gt;
