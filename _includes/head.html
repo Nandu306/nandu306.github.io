@@ -25,6 +25,20 @@
   {% feed_meta %}
   {% seo %}
   <meta name="image" property="og:image" content="/public/newbanner.png">
-  <meta name="title" property="og:title" content="Nandu Rajagopala">
-  <meta name="description" property="og:description" content="Product Manager | Solving company and customer problems">
+<!--   <meta name="title" property="og:title" content="Nandu Rajagopala">
+  <meta name="description" property="og:description" content="Product Manager | Solving company and customer problems"> -->
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" property="og:description" content="Product Manager | Solving company and customer problems">
+  {% endif %}
+
+  {% if page.title %}
+    <meta name="title" content="{{ page.title }}">
+  {% else %}
+    <meta name="title" property="og:title" content="Nandu Rajagopala">
+  {% endif %}
 </head>
+
+
