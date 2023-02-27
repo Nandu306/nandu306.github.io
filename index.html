@@ -4,17 +4,17 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for article in paginator.articles %}
   <article class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
+        {{ article.title }}
       </a>
     </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    <time datetime="{{ article.date | date_to_xmlschema }}" class="post-date">{{ article.date | date_to_string }}</time>
 
-    {{ post.content }}
+    {{ article.content }}
   </article>
   {% endfor %}
 </div>

@@ -22,33 +22,28 @@
       <div class="content-section">
 
         <p>
-          Hi there! 👋🏽 My name is Nandu and I help companies (both big and small) solve problems. When not sharpening my product/coding skills or building a <a href="https://mojo-learning-labs.fly.dev/" target="_blank">cool side project</a>, you can find me reading a detective novel in a Berlin café.</p>
+          Hi there! 👋🏽 My name is Nandu and I help companies solve problems. When not sharpening my product/coding skills or building a <a href="https://mojo-learning-labs.fly.dev/" target="_blank">cool side project</a>, you can find me reading a detective novel in a Berlin café.</p>
 
-        <p> I also <a href="{{ site.baseurl }}/articles/">write</a> about building human-centred products and the things I've picked up along the way.</p>
+        <p> I also <a href="#article-section">write</a> about building human-centred products and the things I've picked up along the way.</p>
 
       </div>
 
-      <main>
-        <h2> Selected Work </h2>
+      <main id=article-section>
+        <h2> Articles </h2>
+        <div>
+          {% for article in site.articles reversed %}
+            <div class="post-post">
+              <small> {{ article.date | date: "%b %Y" | upcase }}</small>
+              <h3><a href="{{ article.url }}" target="_blank">{{ article.title }}</a></h3>
 
-        {% for post in site.posts %}
-          <div class="post-post">
-            <h3><a href="{{ post.site }}" target="_blank">{{ post.title }}</a></h3>
+              <div>
+                <p> {{ article.description }} </p>
+              </div>
 
-            {{ post.content }}
-
-            <ul>
-              {% if post.git %}
-              <li><a href="{{ post.git }}" target="_blank"><i class="fa fa-github"></i></a></li>
-              {% endif %}
-              {% if post.site %}
-              <li><a href="{{ post.site }}" target="_blank"><i class="fa fa-link"></i></a></li>
-              {% endif %}
-            </ul>
-
-            <hr />
-          </div>
-        {% endfor %}
+              <hr />
+            </div>
+          {% endfor %}
+        </div>
       </main>
 
       <footer>
