@@ -40,7 +40,7 @@ plugins:
   - jekyll-seo-tag
 
 
-collections:
-  articles:
-    output: true
-    permalink: /articles/:path
+# collections:
+#   articles:
+#     output: true
+#     permalink: /articles/:path

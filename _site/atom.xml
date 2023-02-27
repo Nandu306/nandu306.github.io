@@ -4,7 +4,7 @@
  <title>Nandu Rajagopala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-02-27T14:33:05+01:00</updated>
+ <updated>2023-02-27T15:05:24+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nandu Rajagopala</name>
@@ -13,62 +13,443 @@
 
  
  <entry>
-   <title>🏜 Azubi Africa</title>
-   <link href="http://localhost:4000/2022/07/07/azubi/"/>
-   <updated>2022-07-07T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2022/07/07/azubi</id>
-   <content type="html">&lt;p&gt;Azubi, backed by Deutsche Bildung, provides upskilling courses in coding and web development in West Africa. Since the business model in place was success-based, I explored products that would increase job placement and generate additional upfront revenue streams for the business. The work not only involved big-picture strategic analyses but also touched on various aspects of the product development lifecycle.&lt;/p&gt;
+   <title>Building compelling products — talking to users (Part 2)</title>
+   <link href="http://localhost:4000/2022/09/01/talking_to_users/"/>
+   <updated>2022-09-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2022/09/01/talking_to_users</id>
+   <content type="html">&lt;p&gt;Speaking with users is a topic that is layered enough to fill an entire book. In fact, there &lt;em&gt;are&lt;/em&gt; entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.&lt;/p&gt;
 
-&lt;p&gt;Areas covered: Product Development, Design Thinking, Market and Competitor Research, UX/UI, Product Vision/Strategy and Financial Analysis&lt;/p&gt;
+&lt;p&gt;As far as interviews go, there are three areas that determine their effectiveness:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Sourcing the right people to speak with&lt;/li&gt;
+  &lt;li&gt;Asking the right questions&lt;/li&gt;
+  &lt;li&gt;Synthesising the takeaways&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;sourcing&quot;&gt;Sourcing:&lt;/h3&gt;
+
+&lt;p&gt;Sourcing enough people to interview is one of the trickiest parts of the research process: where do you find enough target users to talk to? Your goal is to talk to all those who might be using your software. If the product already has users and/or your users are in your immediate midst, you have your work cut out for you. Otherwise, you might have to recruit them from your personal network or through adverts (perhaps with a voucher as an incentive). In the case of the job board that I was working on, the paying customer was the employer and to get a good grasp of the opportunities (customers pains, desires and needs that serve as opportunities for us to fill a gap), I had to speak with hiring managers from different types of companies, mostly sourced through personal networks, Slack groups etc. Job-hunters was another group to speak with; this was relatively straightforward as (a) I could empathise with this group and (b) I had some access via personal networks.&lt;/p&gt;
+
+&lt;h3 id=&quot;interview-mechanics&quot;&gt;Interview mechanics:&lt;/h3&gt;
+
+&lt;p&gt;The second challenge in user research is the mechanics to follow when conducting the interview: what do you ask, what do you not ask and so on. Bear in mind that asking for stories that elicit behaviour is always going to trump opinions. Torres (author of Continuous Discovery Habits) gives an example here. Asking someone what factors they consider when buying a pair of jeans (i.e. for hard facts) would result in a rationalised answer: that is, what they think they do. But if you ask someone to describe how they went about buying jeans the last time that they went shopping, you encourage them to tell you their actions, their behaviours, what really happened on the ground. Recalling facts is a process that is rife with cognitive biases and the human brain is remarkable at creating coherent (but not necessarily accurate) stories that deceive us.&lt;/p&gt;
+
+&lt;p&gt;How then does one come up with the right questions to ask? The first step is to differentiate between research questions and interview questions. The former is essentially: What needs/pains/desires matter most to this customer? The latter, in fact, revolves around stories and plot points. Before beginning to interview users, it might be wise to sketch out the typical &lt;a href=&quot;https://hbr.org/2010/11/using-customer-journey-maps-to&quot; target=&quot;_blank&quot;&gt;experience&lt;/a&gt; faced by the user: the key user actions/intentions, the emotions felt and the expectations at each stage. You could draft an initial version based on your experience and tweak once you’ve spoken to a few people. Once interviews are scheduled, focus on stories (“Tell me about the last time you…” type questions), varying the focus as you see fit (e.g. Do you want to focus on a specific entertainment provider such as Netflix or entertainment in general?). Once a customer starts talking about their experience, it might be useful to use story nodes (i.e. the key phases in a customer journey) as a guide to dig deep. As a guide: every story has a protagonist, a beginning/middle/end, and other characters. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/xp.png&quot;&gt;&lt;img src=&quot;/public/xp.png&quot; alt=&quot;Customer experience map&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Customer experience map&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Another best practice when interviewing is to do so, where possible, as a trio (product manager, designer, engineer). The more diversity that you have in the room, the more lived-in experiences you’d have to generate more insights.&lt;/p&gt;
+
+&lt;p&gt;To summarise:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Map out a typical customer experience map &lt;/li&gt;
+  &lt;li&gt; Focus on stories: these could be open-ended or more specific &lt;/li&gt;
+  &lt;li&gt; Excavate using story nodes and plot-points; use the experience map as a guide &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;interview-synthesis&quot;&gt;Interview synthesis:&lt;/h3&gt;
+
+&lt;p&gt;The last step in the process is to synthesise the takeaways from the interview. The recommended approach is to do so via snapshots at the end of each interview. I’ve annotated a sample from one of the interviews that I conducted (based on a structure recommended by Torres).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/int-notes.png&quot;&gt;&lt;img src=&quot;/public/int-notes.png&quot; alt=&quot;Interview synthesis&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Interview synthesis (click to enlarge)&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;If you are at the initial stages of product development, one of the goals of story excavation is to find out how pressing the problem is for the user. Asking what they do at the moment is a good way to find out if your idea is a nice-to-have or a must-have. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
-   <title>🎓 Mojo Learning Labs</title>
-   <link href="http://localhost:4000/2022/05/18/mojo/"/>
-   <updated>2022-05-18T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2022/05/18/mojo</id>
-   <content type="html">&lt;p&gt;An online assignment-setting tool for school teachers. Students are invited via
-email and can join classes that are available for their year group at their
-school. Teachers can create classes as required and set assignments consisting
-of various questions (including an image) and answer choices. Students receive
-grades upon assignment submission and teachers obtain a markbook with
-student performance and average scores.&lt;/p&gt;
+   <title>The nature of product</title>
+   <link href="http://localhost:4000/2022/08/01/nature_of_product/"/>
+   <updated>2022-08-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2022/08/01/nature_of_product</id>
+   <content type="html">&lt;p&gt;What exactly does a product manager do?&lt;/p&gt;
 
-&lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and PostgreSQL.&lt;/p&gt;
+&lt;p&gt;I recently came across a job advert for a product manager at a European startup. A few weeks later, I noticed that the job title had changed into ‘Technical Product Manager‘ whilst the job description remained very much the same. About a month later, thanks to LinkedIn’s recommendation engine, I realised the same company was now looking for a Product Owner (yes, you guessed it right: the job description hadn’t budged an inch). Something seemed off: either this particular company was using the job title as a keyword in order to generate as many applications as possible, or they were genuinely confused about the role of product within their organisation.&lt;/p&gt;
+
+&lt;p&gt;It was in this backdrop that I listened to a &lt;a href=&quot;https://www.lennyspodcast.com/the-nature-of-product-marty-cagan-silicon-valley-product-group/#transcript&quot; target=&quot;_blank&quot;&gt;podcast&lt;/a&gt; where Marty Cagan &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; talks about the role of product teams and where most companies get it wrong. Cagan says that there is a distinct difference between a product team and a features team: the former are given problems to solve (be it company or customer-related) as well as the functional skills required to tackle them, whereas the latter are simply given a roadmap and a list of features to build. The number of features churned out is immaterial if they do not solve the underlying problems that the company faces.&lt;/p&gt;
+
+&lt;p&gt;I’ve summarised below some of my other takeaways from the podcast:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;According to Cagan, only 10-15% of companies are good product companies. The issue—Cagan quotes an old interview of Steve Jobs here—is that even organisations that start off in the right direction loose their mojo as they grow and their products start generating revenue. Once they reach this comfort zone, most companies tend to prioritise functions such as marketing and finance, and product discovery tends to take a back-seat. Apparently, this ‘disease’ is a stumbling block to innovation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cagan also suggests a model for product teams to work effectively. Once a problem has been validated and a solution is being discovered, it is the product manager’s responsibility to ensure that whatever the team decides upon is &lt;strong&gt;valuable&lt;/strong&gt; and &lt;strong&gt;viable&lt;/strong&gt;. The engineering and design teams would, for their part, assess the feasibility (can we build this solution?) and usability (can the user easily accomplish the task?) of the solution respectively. This essentially means that a product manager should have direct access to customers, to the engineering team and the various stakeholders. Cagan says that this direct and unencumbered access is non-negotiable, and a prerequisite for a product manager to succeed in their role.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Useful tip: When you do user research, you do it to find out all the reasons why users &lt;strong&gt;won’t&lt;/strong&gt; use your product.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Product managers should be well-versed in four areas: the users and the customers; how the product is being used; how the product fits into the bigger picture of the organisation; and, the overall industry and competition.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For the startup that has now settled on the Product Owner title, Cagan has some choice words. He says that product owner role is an ‘administrative role’ parading as a product role. According to him, teaching a process like scrum doesn’t exactly make someone product-oriented and it is Europe that seems obsessed with such roles/titles. 🤷🏽‍♂️&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;I’d recommend, Inspired, his book on product &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
-   <title>🎙 SoundBox</title>
-   <link href="http://localhost:4000/2021/09/20/soundbox/"/>
-   <updated>2021-09-20T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2021/09/20/soundbox</id>
-   <content type="html">&lt;p&gt;SoundBox allows you to search and discover podcasts of interest on Apple’s iTunes.&lt;/p&gt;
+   <title>Building compelling products — understanding the market (Part 1)</title>
+   <link href="http://localhost:4000/2022/07/01/compelling_products_1/"/>
+   <updated>2022-07-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2022/07/01/compelling_products_1</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;🎯 TL;DR:&lt;/p&gt;
 
-&lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and Apple APIs.&lt;/p&gt;
+  &lt;p&gt;Identify the different communities of users for your product, hang out with them (online or offline) to assess likes/dislikes/trends, and mull over things (with the help of some frameworks).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In &lt;em&gt;Well-Designed&lt;/em&gt;, Kolko puts forward the idea of a market as being a community of people (users, policy-makers, competitors etc), and the often-used phrase ‘product-market fit’ as being how this community responds to the product in question.&lt;/p&gt;
+
+&lt;p&gt;The best way to thus understand the market is to hang out within its different communities (of users) and look out for signals that could help in crafting a compelling product differentiator. Example: What do these people currently do and how do they do it? What do these people gripe about? What do they wish for? And more importantly: Are there any major shifts in attitude and practices?&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Signals, when taken as a whole, can give rise to unique insights about a market and enable you to carve out a spot for yourself. In my case, the nature of the product that I was looking into—consumer-driven, marketplace for talent, something all of us could relate to—made empathising with the user more straightforward. Having done a coding bootcamp, I also had ready access to an active alumni community hunting for opportunities in tech and was broadly aware of the topics that were usually discussed. I have also previously written about studying a user group that I was interested in through actively engaging in relevant Facebook groups.&lt;/p&gt;
+
+&lt;p&gt;But be aware that some signals such as competition and what they are up to are merely noise. It is, of course, useful to know something about what you are up against but concentrating too much on what others are doing distracts you from what they aren’t. Moreover, it is nearly impossible to replicate the &lt;em&gt;character&lt;/em&gt; of a product that a competitor has built which in itself is a reflection of the company’s culture and values (Microsoft products, for example, are very different to those of Apple). Blindly keeping track of features and copying them, in addition, only results in a poor user experience. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you’ve gathered your signals, you can use certain tools to make sense of them. The tools or, as Kolco calls them, working artifacts help you mull things over and slip into a sense of exploration. They can also help you filter out signals that don’t fit in with your broader goals. For those exposed to consulting frameworks, these tools aren’t exactly used to communicate your ideas/findings to anyone, but to doodle, explore options and get into a creative headspace.&lt;/p&gt;
+
+&lt;p&gt;I’ve outlined below some of the tools that I used to consider my vision/strategy: value-goal statements, user-attribute matrices and pre-mortems.&lt;/p&gt;
+
+&lt;li style=&quot;color: black; font-weight:bold; margin-top: 20px;&quot;&gt; Value-goal statement: &lt;/li&gt;
+&lt;p&gt;Why am I building the product? How would this fit into universal themes such as love, connection, respect, pride etc? Thinking of yourself being in charge of a value rather than a product can be a means of filtering what you don’t want to focus on.&lt;/p&gt;
+
+&lt;p&gt;As an example: &lt;em&gt;I help connect untapped tech talent in Africa with world-class opportunities in Europe. Unlike LinkedIn, our talent profiles are internally vetted and the employers who use our site are actively looking to hire African talent.&lt;/em&gt; Essentially: plugging the gap between talent and opportunity.&lt;/p&gt;
+
+&lt;li style=&quot;color: black; font-weight:bold; margin-top: 20px;&quot;&gt; User-attribute matrices: &lt;/li&gt;
+&lt;p&gt;These are 2-by-2 diagrams to tease out any relations between different communities. The first step is to identify the different groups of users who might be using your product. The second is to ascertain what differentiates them so that you can make a list of factual and emotional attributes. The third is to plot these attributes against one another to generate insights: areas that are best avoided or best explored from a positioning perspective.&lt;/p&gt;
+
+&lt;p style=&quot;margin-bottom: 20px;&quot;&gt; These steps are best illustrated by an example. For a job board focused on tech talent the users would be: &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;caption&gt; Table 1: Community of users for a job board &lt;/caption&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;h3&gt; Supply&lt;/h3&gt;&lt;/th&gt;
+      &lt;th align=&quot;right&quot;&gt;&lt;h3&gt;Demand&lt;/h3&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; fresh grads (either university or bootcamp)&lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Startups (founders, engineering lead)&lt;/p&gt;
+          &lt;p&gt; - Early-stage: focus on MVPs etc &lt;/p&gt;
+          &lt;p&gt; - Scale-ups: established product-market fit, and tech teams&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; professionals (full-time or freelancers) &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Large corporations (HR, hiring manager)&lt;/p&gt;
+          &lt;p&gt; - Tech as focus: SaaS &lt;/p&gt;
+          &lt;p&gt; - Tech as an enabler: banks, government organisations, charities, companies in traditional sectors going for a digital presence&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt;  &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Recruiting agencies (Headhunters)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt;  &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Web/design agencies&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p style=&quot;margin-bottom: 20px;&quot;&gt; Comparing one group against another might help generate attributes. For example: what would differentiate a resource-strapped, growing startup from an established company? It might be the budget available or the level of supervision that can be afforded to a new hire or it could be the flexibility when it comes to where you can work from. The table below summarises some of the attributes that I came up with. &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;caption&gt; Table 2: Relevant attributes for the user group &lt;/caption&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;h3&gt; Factual&lt;/h3&gt;&lt;/th&gt;
+      &lt;th align=&quot;right&quot;&gt;&lt;h3&gt;Emotional&lt;/h3&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; Cost of hiring (budget available)&lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Uncertainty over fit&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; Quality of work produced &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Uncertainty over work output&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; Level of supervision required &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Uncertainty over working mechanisms&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; Work location &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;Sense of working together&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; Availability/variety of profiles &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; User segment size &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Based on the above attributes, the charts below depict some of the possible combinations. Mulling over them raises questions such as: Is there an opportunity amongst companies with a low budget but don’t have a strong focus on team culture (something like a SWAT team that goes in to work on a specified project/problem) or should we position ourselves as offering bright developers who don’t have much experience to companies on a shoestring budget. If it’s the latter, would that even work in practise considering that hiring managers automatically reject people without a prescribed length of experience?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/chart1.png&quot;&gt;&lt;img src=&quot;/public/chart1.png&quot; alt=&quot;Matrices&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Figure 1: Matrices to elicit insights (click to enlarge); S = startups, C = corporations, T = tech-focused companies, A = web/design agencies&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/chart2.png&quot;&gt;&lt;img src=&quot;/public/chart2.png&quot; alt=&quot;Matrices&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Figure 2: Matrices to elicit insights (click to enlarge)&lt;/em&gt;&lt;/p&gt;
+
+&lt;li style=&quot;color: black; font-weight:bold; margin-top: 20px;&quot;&gt; Pre-mortem: &lt;/li&gt;
+
+&lt;p&gt;If this product fails in the future, why would that have happened? Asking yourself this question early on forces you to visualise scenarios that could crop up in the future and thereby refine your offering before you go-to-market. In my case, these were some of the issues that I could identify:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Companies not being open to temporary, remote staff, either because of policy or security&lt;/li&gt;
+  &lt;li&gt;Not able to source enough local talent who meet Western company specs (i.e. not enough relevant experience, knowledge of the right languages)&lt;/li&gt;
+  &lt;li&gt;Talent not performing on the job&lt;/li&gt;
+  &lt;li&gt;Costs of the new hire not a dealbreaker to most  tech companies, whereas capability is&lt;/li&gt;
+  &lt;li&gt;Pricing not in line with employer expectations&lt;/li&gt;
+  &lt;li&gt;Apart from cost, the product doesn’t offer anything new compared with other tech-focused job sites&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To wrap things up, the first step in building a product is immersing yourself in your target market and getting a feel for the macro picture: community trends and market forces. The next step is to deep-dive into individual behaviour and understand the needs and wants on a micro level.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;One example is the increased interest shown in politics by young people which was instrumental in helping Obama win the 2008 presidential election. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Hick’s Law: the more features you have, the longer a user takes to make a product decision. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
-   <title>🚲 Flying Wheels</title>
-   <link href="http://localhost:4000/2021/08/20/flyingwheels/"/>
-   <updated>2021-08-20T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2021/08/20/flyingwheels</id>
-   <content type="html">&lt;p&gt;Flying Wheels is a marketplace for renting bikes. You can list bikes online and approve/reject booking requests.&lt;/p&gt;
+   <title>Building compelling products — a case study (Intro)</title>
+   <link href="http://localhost:4000/2022/07/01/compelling_products_0/"/>
+   <updated>2022-07-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2022/07/01/compelling_products_0</id>
+   <content type="html">&lt;p&gt;I recently undertook a project for a German-backed upskilling provider in West Africa, the intention being to explore ways of connecting tech talent in the continent with companies in Europe. The task at hand was to define what to build: understand the user problems, craft the value proposition, and define the core features that might be required for an MVP.&lt;/p&gt;
 
-&lt;p&gt;Built using Rails, HTML, CSS, Bootstrap and PostgreSQL.&lt;/p&gt;
+&lt;p&gt;Working on this project got me thinking: could one standardise the process of building compelling products? Was there a ‘loose’ one-size-fits-all strategy to creating something that hasn’t yet achieved product-market fit? I say loose in inverted commas because I am aware that building products is both a science as well as an art, and that context would play a role in any process.&lt;/p&gt;
+
+&lt;p&gt;To create a first-iteration recipe, I combed through popular product books such as &lt;em&gt;Well-Designed&lt;/em&gt;, &lt;em&gt;Customer Discovery Habits&lt;/em&gt; and &lt;em&gt;The Lean Product Playbook&lt;/em&gt;, and blended some of the concepts outlined. The posts in this series not only capture some of the key takeaways from these books but also provide applied examples that demonstrate how some of the techniques could be used in real life. I have leant towards a more user-centred approach that focuses on customer opportunities (needs, desires, pain points). I feel that such an approach encourages exploration and places more weight on innovation/differentiation (rather than the popular lean process of building something quickly, flinging it out to the market and seeing if the product in question sinks or swims). I’m not advocating one school of product development over another, but spending extra time to get under the skin of the user/customer resonated with me.&lt;/p&gt;
+
+&lt;p&gt;There are 5 steps to building compelling products:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt; Understand the market to carve out a space &lt;/li&gt;
+  &lt;li&gt; Dig deep via customer interviews &lt;/li&gt;
+  &lt;li&gt; Map opportunities to business outcomes. Use this to formulate solutions and assumptions &lt;/li&gt;
+  &lt;li&gt; Identify the core features for the product in question; also, performance drivers and differentiators &lt;/li&gt;
+  &lt;li&gt; Build a prototype, gather feedback and reiterate &lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  
  <entry>
-   <title>💊 Arete Medical</title>
-   <link href="http://localhost:4000/2018/11/01/arete/"/>
-   <updated>2018-11-01T00:00:00+01:00</updated>
-   <id>http://localhost:4000/2018/11/01/arete</id>
-   <content type="html">&lt;p&gt;Funded by Innovate UK, Arete’s goal was to develop a holistic (hardware and software) product for chronic asthmatics. I spoke to both patients and health practitioners to understand user needs and wants, and defined core features. The work also involved building a business case for tackling the COPD market in the US.&lt;/p&gt;
+   <title>Designing a landing page test</title>
+   <link href="http://localhost:4000/2022/05/01/landing_page_design/"/>
+   <updated>2022-05-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2022/05/01/landing_page_design</id>
+   <content type="html">&lt;p&gt;In &lt;em&gt;UX For Beginners: A Crash Course in 100 Short Lessons&lt;/em&gt;, Joel Marsh sums
+up the goal of a landing page as showing users where to go and providing
+answers to the following three questions as being key to achieving that:&lt;/p&gt;
 
-&lt;p&gt;Areas covered: User Research, Market Sizing, Strategy, Competitor and Financial Analysis&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; What is this? &lt;/li&gt;
+  &lt;li&gt; What’s in it for me? &lt;/li&gt;
+  &lt;li&gt; What do I do next? &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When crafting my own landing page to test an idea, I used Marsh’s questions
+as a framework to structure the information. The only addition that I made was
+to incorporate a unique value proposition to the first question (What is this
+and what is special about it?). For those interested in the mechanics of
+design, I used Figma to create an initial mock before building the page. I’m
+aware that there are no-code alternatives like Webflow etc, but my design was
+simple enough for me to write the code myself and it didn’t take me too much
+time to have it in place. The icons that you see are from Icons8 and they are
+available free of charge (Figma enabled me to combine and adapt them to my own
+needs). I remember spending some time playing around with the colours but I
+finally went with what felt right (some of it was based on the icon designer’s
+colour palette).&lt;/p&gt;
+
+&lt;p&gt;The effectiveness of a landing page ultimately boils down to its conversion
+rate. I didn’t spend money on any Google or Facebook ads, but as outlined in
+&lt;a href=&quot;https://nandu306.github.io/articles/idea_validation&quot;&gt;this&lt;/a&gt; post, I targeted the right users through relevant Facebook groups. The
+conversation rate (sign-ups to views) was around 20% but this might have well
+been lower had I tried to test willingness-to-pay and quoted a product cost
+somewhere.&lt;/p&gt;
+
+&lt;p&gt;I’ve annotated my landing page to highlight some of the key takeaways. Reflecting on it now, I’d
+probably keep it problem-centric and avoid hinting at solutions (I’ve mentioned a gamified environment, for example).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/landingpage.png&quot;&gt;&lt;img src=&quot;/public/landingpage.png&quot; alt=&quot;Designing a landing page test&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Landing page with annotations (click to enlarge)&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Discovering what to build — lessons learnt</title>
+   <link href="http://localhost:4000/2022/04/01/product_discovery/"/>
+   <updated>2022-04-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/2022/04/01/product_discovery</id>
+   <content type="html">&lt;p&gt;The one thing that I realised when trying to figure out what to build was how
+experimental, iterative and subjective the whole process tends to be. I
+doubt if anyone who launches a successful product ever does so fully knowing
+what form it would finally take or if it would ever go down as intended with
+their target user base. Of course, there are well-known examples of now
+household brands having to change course when they first started out:
+Instagram, for example, started off as a location-sharing app.&lt;/p&gt;
+
+&lt;p&gt;But reading is one thing and living through it is another. I have summarised
+below my experience in trying to figure out what to build in the EdTech space and the
+lessons that it reinforced. I call it reinforced because, through
+reading/classes etc, some version of these lessons had been wedged in
+my head somewhere but being in the thick of things brought them to the fore and also
+threw a whole new set of challenges that showed product discovery in new light.&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-one-first-own-the-problem-space&quot;&gt;Lesson One: First, own the problem space&lt;/h3&gt;
+
+&lt;p&gt;Fresh from a coding bootcamp, I was raging to put my newfound skills to
+practise. I plunged into action right away and settled for one of the first
+product ideas that came to my mind: an online assessment tool for school
+teachers. Given the media coverage around the pandemic’s adverse effects on
+school education at the time, I suspect that I might have subconsciously been
+influenced by the world around me. That, and a soft spot for the education
+sector in general. The goal was to improve my coding skills; why bother
+thinking too much about &lt;em&gt;what&lt;/em&gt; I was going to build?&lt;/p&gt;
+
+&lt;p&gt;Idea in place, I rolled my sleeves and got down to the business of actually
+building the web app. The struggles faced in this endeavour and the associated
+learnings should be an entire article in its own right but suffice to say that
+once I had emerged from many a rabbit hole that I had dug for myself, I had a
+shiny new tool that (a) looked good (I had paid attention to basic UX/UI) and
+(b) did what it was meant to do. My line of thinking about the product being a
+non-issue would have just been fine if I had stopped it at that. Alas, not.
+Chuffed by what I had managed to build on my own and swept away by my own
+optimism, I reached out to a few schools and set up meetings where I could show
+them my handiwork. For some reason, in that adrenaline-fuelled moment, the
+image that I had in mind of a teacher was the one that I had myself encountered
+at school: not very tech savvy nor open to embracing the tools of the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/mojo-1.png&quot;&gt;&lt;img src=&quot;/public/mojo-1.png&quot; alt=&quot;Teachers' dashboard&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Teachers’ Dashboard&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/mojo-2.png&quot;&gt;&lt;img src=&quot;/public/mojo-2.png&quot; alt=&quot;Assignment setting&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Assignment setting&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/mojo-3.png&quot;&gt;&lt;img src=&quot;/public/mojo-3.png&quot; alt=&quot;Students' Dasnboard&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Students’ Dashboard&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It was an awakening of sorts when the first teacher, after patiently listening
+to my product demo, asked me how it was different to Google Classrooms. I
+remember mumbling something about the app being more intuitive and easier to
+use. But, I knew in my heart of hearts, that it was not a compelling reason for
+anyone to undertake a significant shift in their way of working. Another
+conversation with another school went the same way. It took a moment of
+discomfort for it to sink in that schools had adapted for the pandemic and that
+I was putting the cart before the horse. Indirectly, I’d embodied what those with
+some technical skills fall prey to: rushing to build. The target user base and
+their problems should have come first. I should have first immersed myself in
+that space, identified what schools’ needs/problems/desires were and whether they were
+painful enough for them to resolve by paying money.&lt;/p&gt;
+
+&lt;p&gt;The conversations weren’t a total disaster though. I switched gears half-way
+through the conversation and used the opportunity to find out more about the
+issues teachers faced when setting homework. I learnt that creating assessment
+material/questions was a time consuming task and that marking long-form answers
+was another. These were problems not addressed by products such as Google
+Classrooms or Microsoft Teams, and would probably never be. However, I knew
+that there were many products in the market that addressed these issues in
+various ways. Was there a gap in the market? Or was there something that
+current players don’t cater fully to? My curiosity now stoked, I parked my app
+to one side and set about trying to better understand the secondary schools space.&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-two-get-creative-when-trying-to-understand-and-connect-with-your-target-audience&quot;&gt;Lesson Two: Get creative when trying to understand and connect with your target audience&lt;/h3&gt;
+
+&lt;p&gt;I seemed to have had crude luck when sourcing teachers for my first two
+conversations. It was either that or I was only able to get their attention by
+referring to the product I had built. I quickly found out that cold emails
+where I asked time for research purposes mostly went unanswered. Even the
+attempts to source conversations through my personal networks were
+unsuccessful: the teachers were either sceptical about confidentiality issues
+or they just couldn’t find the time to have a chat. Perhaps it might have been
+different if I had given some sort of incentive such as gift vouchers, but I didn’t
+want to go down that route.&lt;/p&gt;
+
+&lt;p&gt;Searching for alternative means of connecting with the target user base, I
+discovered that there were several Facebook groups that brought together
+teachers with various interests and from various backgrounds: there were several for science
+teachers, online tutors and even one for parents prepping their children for
+competitive school exams. I joined all the groups that I could find including
+related ones like those for parents who homeschool their children. I now had
+had a means of engaging with the people that I had been struggling to connect
+with before.&lt;/p&gt;
+
+&lt;p&gt;I spent a few weeks taking a back seat and quietly reading some of the posts
+that cropped up in the group and the comments those posts garnered. One of the
+science groups was particularly active; the posts ranged from asking where to
+find assessment questions to ideas for practical work to help with lesson planning. Once I
+figured out the lay of the land, I posted a simple question to the group: What
+were their biggest issues when it came to teaching science? Looking back on it
+now, it probably was a leading question but I wanted to get spark off a
+conversation and follow up individually to those who responded.&lt;/p&gt;
+
+&lt;p&gt;Judging by the number of responses generated within a few hours on a Sunday
+morning, I seem to have struck a chord. Replies ranged from the workload
+associated with ongoing assessments to how broken science teaching at school
+really was (“My degree is in biology, but I have to teach physics as well”; “We
+just don’t have the time to make science relevant”; “I sometimes have to teach
+maths as well because the maths teacher hasn’t covered the topic yet.”). Having
+been a science student myself, I could relate to why providing an effective
+science lesson was a challenge to most teachers.&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-three-looking-for-and-talking-to-users-tells-you-something-about-the-sales-process-as-well&quot;&gt;Lesson Three: Looking for and talking to users tells you something about the sales process as well&lt;/h3&gt;
+
+&lt;p&gt;The replies from science teachers allowed me to think a bit more about what they
+were trying to achieve, or as a popular framework puts it, their ‘jobs to be
+done’ when teaching science. I could garner enough empathy to see the other
+side of the coin as well; the jobs that students were trying to get done when
+trying to learn science. Merging them together gave me an inkling of an idea to
+test. But which segment do I focus on? Should I build a product for
+schools/teachers (i.e. B2B) or should it be something for students (B2C)? My
+experience in trying to source teachers for interviews was eye-opening and made
+me rethink who I wanted to target. If having a simple conversation with schools
+and teachers was so arduous, how difficult would sales be when it comes to that
+stage?&lt;/p&gt;
+
+&lt;p&gt;Again, to test out my hypothesis, I put together a landing page which
+highlighted some key problems (distilled from my user research)
+and shared the web link on the Facebook groups that I was part of. Within a
+week, I had about fifty people who had signed up to receive a notification on
+launch. Fifty with whom I could potentially have one-on-one conversations with to either refine the idea or stumble upon new ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/mojo-4.png&quot;&gt;&lt;img src=&quot;/public/mojo-4.png&quot; alt=&quot;Students' Dashboard&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;The landing page test&lt;/em&gt;&lt;/p&gt;
+
 </content>
  </entry>
  

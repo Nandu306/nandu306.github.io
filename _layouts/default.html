@@ -31,13 +31,13 @@
       <main id=article-section>
         <h2> Articles </h2>
         <div>
-          {% for article in site.articles reversed %}
+          {% for post in site.posts %}
             <div class="post-post">
-              <small> {{ article.date | date: "%b %Y" | upcase }}</small>
-              <h3><a href="{{ article.url }}" target="_blank">{{ article.title }}</a></h3>
+              <small> {{ post.date | date: "%b %Y" | upcase }}</small>
+              <h3><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h3>
 
               <div>
-                <p> {{ article.description }} </p>
+                <p> {{ post.description }} </p>
               </div>
 
               <hr />

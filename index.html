@@ -8,13 +8,13 @@ title: Home
   <article class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ article.title }}
+        {{ post.title }}
       </a>
     </h1>
 
-    <time datetime="{{ article.date | date_to_xmlschema }}" class="post-date">{{ article.date | date_to_string }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ article.content }}
+    {{ post.content }}
   </article>
   {% endfor %}
 </div>

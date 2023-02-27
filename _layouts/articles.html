@@ -5,11 +5,11 @@ layout: default
 
 
         <div>
-          {% for article in site.articles %}
+          {% for post in site.posts %}
             <div class="post-post">
-              <h3><a href="{{ article.url }}" target="_blank">{{ article.title }}</a></h3>
+              <h3><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h3>
 
-              <p> {{ article.description }} </p>
+              <p> {{ post.description }} </p>
 
               <hr />
             </div>
