@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-02T17:31:46+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nandu Rajagopala</title><subtitle>Personal website built with Jekyll and GitHub Pages</subtitle><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><entry><title type="html">Building compelling products — talking to users (Part 2)</title><link href="http://localhost:4000/2022/09/01/talking_to_users/" rel="alternate" type="text/html" title="Building compelling products — talking to users (Part 2)" /><published>2022-09-01T00:00:00+02:00</published><updated>2022-09-01T00:00:00+02:00</updated><id>http://localhost:4000/2022/09/01/talking_to_users</id><content type="html" xml:base="http://localhost:4000/2022/09/01/talking_to_users/">&lt;p&gt;Speaking with users is a topic that is layered enough to fill an entire book. In fact, there &lt;em&gt;are&lt;/em&gt; entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-10T13:58:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nandu Rajagopala</title><subtitle>Personal website built with Jekyll and GitHub Pages</subtitle><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><entry><title type="html">Test assumptions, not ideas</title><link href="http://localhost:4000/test-assumptions-not-ideas.html" rel="alternate" type="text/html" title="Test assumptions, not ideas" /><published>2023-03-01T00:00:00+01:00</published><updated>2023-03-01T00:00:00+01:00</updated><id>http://localhost:4000/test-assumptions-not-ideas</id><content type="html" xml:base="http://localhost:4000/test-assumptions-not-ideas.html">&lt;p&gt;&lt;a href=&quot;/public/testing.jpg&quot;&gt;&lt;img src=&quot;/public/testing.jpg&quot; alt=&quot;Testing&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;How do you know if an idea has wings?&lt;/p&gt;
+
+&lt;p&gt;Having spent a considerable amount of time working with various founders—from newly-minted PhDs to those with corporate experience—I’m constantly amazed by the leaps of faith that they have taken. Sometimes, their efforts have paid off and their ventures have found steady ground. Sometimes, not so. And, frankly, I have at times asked myself what signals they looked at to convince themselves about their startup idea before investing the time, money and effort they did.&lt;/p&gt;
+
+&lt;p&gt;I’m aware of the ‘test and learn’ methodology that books such as &lt;a href=&quot;https://www.amazon.co.uk/Lean-Startup-Innovation-Successful-Businesses/dp/0670921602/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=1678444397&amp;amp;sr=8-1&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;The Lean Startup&lt;/em&gt;&lt;/a&gt; have popularised. But what if you have multiple ideas that you want to test out? Isn’t ideation all about generating several ideas and then comparing and contrasting them? Do you build landing pages and prototypes for each and test the market reaction?&lt;/p&gt;
+
+&lt;p&gt;Luckily, Teresa Torres’ book &lt;a href=&quot;https://www.amazon.co.uk/Continuous-Discovery-Habits-Discover-Products/dp/1736633309/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=1678444194&amp;amp;sr=8-1&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Continuous Discovery Habits&lt;/em&gt;&lt;/a&gt; has a simple solution for anyone faced with this dilemma: test assumptions instead of ideas.&lt;/p&gt;
+
+&lt;p&gt;I have previously written about building an assignment tool and realising that it wouldn’t have been an ideal solution for teachers who had gotten used to mainstream tools offered by Google Classrooms and Microsoft Assignment during the pandemic &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. If I were to take my own experience as an example, this is how I would have done things differently:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Generate many ideas that can be compared and contrasted in the homework-assigning space&lt;/li&gt;
+  &lt;li&gt;Story map a selected idea with the main actors and their journey within the product idea in question&lt;/li&gt;
+  &lt;li&gt;Tease out the assumptions behind each step of the user journey&lt;/li&gt;
+  &lt;li&gt;Test the assumption&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;working-with-several-ideas&quot;&gt;Working with several ideas&lt;/h3&gt;
+
+&lt;p&gt;Regarding the assignment tool, the first mistake I made was not spending enough time on ideation or problem-scoping: I went with the first idea that came to my mind without generating enough alternatives in the opportunity space (How might we reduce teachers’ workloads?). I also relied on my own school experience to empathise with teachers and didn’t speak to any of them to understand their underlying needs. The first idea we come up with is generally not the best; the deeper we dig into the crevices of our minds, the more innovative our ideas tend to be. And, to whittle them down, ideas are meant to be compared and contrasted against one another (either on your own or as a group).&lt;/p&gt;
+
+&lt;p&gt;If making the homework process more efficient was the ultimate goal, the following diagram outlines the key areas that make it so from a teacher’s perspective. The highlighted part is the pain point that I was focusing on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/homework_pains.png&quot;&gt;&lt;img src=&quot;/public/homework_pains.png&quot; alt=&quot;Homework pain points&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Pain points involved in assigning homework (click to enlarge)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;For illustration, some ideas that solve the marking/reporting problem are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a web app to set and score assignments to an entire class &lt;/li&gt;
+  &lt;li&gt;a mobile app that enables students to capture and submit homework; assignments marked by AI or some outsourced entity&lt;/li&gt;
+  &lt;li&gt;chatbot that allows interactive learning discussion to solidify concepts learnt at school&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since the above ideas all address the same problem, the underlying assumptions across all these ideas should be broadly similar.&lt;/p&gt;
+
+&lt;h3 id=&quot;generating-assumptions&quot;&gt;Generating assumptions&lt;/h3&gt;
+
+&lt;p&gt;Once you’ve narrowed your list of ideas to the three that address the problem at hand, an effective means of understanding underlying assumptions is to pick one, pretend the product exists and story map the typical user journey. Below is a sketch that fleshes out what this journey might have looked like for an assignment-setting tool.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/story_map.png&quot;&gt;&lt;img src=&quot;/public/story_map.png&quot; alt=&quot;Assignment tool story map&quot; /&gt;&lt;/a&gt;
+&lt;em&gt;Story map (click to enlarge)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Assumptions, according to Torres, fall under five key buckets: desirability (do users want this?), viability (would users pay for this?), usability (can users find their way around the product?), feasibility (can we actually build this?) and ethics (are we allowed to do this?). Looking at each action through the prism of a major assumption category allows you to quickly generate a series of assumptions that you are taking at each step.&lt;/p&gt;
+
+&lt;p&gt;I’ve listed out some key assumptions that I’d subconsciously made when starting to flesh out the idea &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;caption&gt; Table 1: Assumptions behind assignment-setting app &lt;/caption&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; &lt;strong&gt; Desirability &lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;
+        &lt;ol&gt;
+          &lt;li&gt; Schools/teachers want to use an online tool for homework&lt;/li&gt;
+          &lt;li&gt; Schools/teachers want to use our platform for online homework setting&lt;/li&gt;
+          &lt;li&gt; Teachers are happy to set their own questions&lt;/li&gt;
+          &lt;li&gt; Teachers are happy to restrict themselves to MCQs and one-word answer questions&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; &lt;strong&gt; Viability &lt;/strong&gt; &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;
+          &lt;ol start=&quot;5&quot;&gt;
+            &lt;li&gt;There are enough schools/teachers who want to switch to a digital solution&lt;/li&gt;
+            &lt;li&gt;There are enough schools that would pay for a digital solution&lt;/li&gt;
+            &lt;li&gt;We can easily reach and market to schools&lt;/li&gt;
+          &lt;/ol&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; &lt;strong&gt; Usability &lt;/strong&gt; &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;
+          &lt;ol start=&quot;8&quot;&gt;
+            &lt;li&gt;All students will have access to the internet&lt;/li&gt;
+            &lt;li&gt;Less digital-savvy teachers can intuitively use our platform&lt;/li&gt;
+          &lt;/ol&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; &lt;strong&gt; Feasibility &lt;/strong&gt; &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;
+          &lt;ol start=&quot;10&quot;&gt;
+            &lt;li&gt;Our engineers can build a smooth onboarding process where school admins can upload student email addresses to generate email invites&lt;/li&gt;
+            &lt;li&gt;Our engineers can build a functionality that allows teachers to create classes and easily add students to that class&lt;/li&gt;
+            &lt;li&gt;Our engineers can build a solution where students at a particular school can view all their classes, assignments and scores o submitted assignments&lt;/li&gt;
+          &lt;/ol&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;p&gt; &lt;strong&gt; Ethics &lt;/strong&gt; &lt;/p&gt;&lt;/td&gt;
+      &lt;td align=&quot;right&quot;&gt;
+          &lt;ol start=&quot;13&quot;&gt;
+            &lt;li&gt;Schools/parents are happy with the idea of online homework and extra screen time&lt;/li&gt;
+          &lt;/ol&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In the grand scheme of things, not all assumptions are equal; some can sink your idea whilst others are just details you should be aware of when fleshing out the business model/operations. An easy way to focus on the ones that matter is to map out these assumptions in a grid as below (importance versus evidence; evidence referring to how much evidence we currently have to prove/disprove the assumption) and select the top three that hold sway.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/assumption_map.png&quot; width=&quot;95%&quot; /&gt;
+&lt;em&gt;Assumption map (click to enlarge)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From this diagram, it appears as though assumptions #5, #6 and #7 are the ones that we should gather more evidence for.&lt;/p&gt;
+
+&lt;h3 id=&quot;testing-assumptions&quot;&gt;Testing assumptions&lt;/h3&gt;
+
+&lt;p&gt;The &lt;em&gt;assumption → simulate → evaluate&lt;/em&gt; framework provides a roadmap for testing assumptions. Given that the goal is to reduce risk and not to prove an assumption as being true, the process is simple: pick one of your leap-of-faith assumptions, identify a moment you want to simulate, and evaluate the outcome against pre-determined criteria.&lt;/p&gt;
+
+&lt;p&gt;If, for example, I were to test assumptions #6 and #7 (‘There are enough schools that would pay for a digital solution’ and ‘We can easily reach and market to schools’), one way to accomplish that would be to create a fake brochure/website with a pricing plan, reach out to various school heads via different channels and assess what the response rate is (e.g., email sign-ups). If you have a pre-determined number of positive responses that would make the test pass (e.g., 5 out of 10 schools respond positively to our request), then that should provide a benchmark for you to know what success should look like. It will also give you an insight into the effectiveness of different sales/marketing channels and if you could scale via that channel.&lt;/p&gt;
+
+&lt;p&gt;How do you determine the correct response rate that should tip the balance? Unfortunately, the exact number is subjective and it’s best to arrive at one as a team. But it is important that you start small and then progress to large-scale tests. If you have an existing digital product and you want to assess the assumptions behind a particular feature, you could always run one-question surveys (e.g., ‘Do you want off-the-shelf assignments to pick from on our platform?’) or A/B tests as required.&lt;/p&gt;
+
+&lt;p&gt;If there’s one thing that you take away from this article, let it be this: don’t test whole ideas. When you are toying between a couple of ideas, identify the assumptions behind them and then devise tests to assess the risk of that assumption. That way, you can save some time, money and effort.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;In my defence: it was a means of improving my programming skills! &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Note that all the assumptions are framed in a positive way. It makes it easier when it comes to devising tests. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/public/testing.jpg" /><media:content medium="image" url="http://localhost:4000/public/testing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Building compelling products — talking to users (Part 2)</title><link href="http://localhost:4000/talking_to_users.html" rel="alternate" type="text/html" title="Building compelling products — talking to users (Part 2)" /><published>2022-09-01T00:00:00+02:00</published><updated>2022-09-01T00:00:00+02:00</updated><id>http://localhost:4000/talking_to_users</id><content type="html" xml:base="http://localhost:4000/talking_to_users.html">&lt;p&gt;Speaking with users is a topic that is layered enough to fill an entire book. In fact, there &lt;em&gt;are&lt;/em&gt; entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.&lt;/p&gt;
 
 &lt;p&gt;As far as interviews go, there are three areas that determine their effectiveness:&lt;/p&gt;
 &lt;ol&gt;
@@ -42,7 +172,7 @@
       &lt;p&gt;If you are at the initial stages of product development, one of the goals of story excavation is to find out how pressing the problem is for the user. Asking what they do at the moment is a good way to find out if your idea is a nice-to-have or a must-have. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">Speaking with users is a topic that is layered enough to fill an entire book. In fact, there are entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.</summary></entry><entry><title type="html">The nature of product</title><link href="http://localhost:4000/2022/08/01/nature_of_product/" rel="alternate" type="text/html" title="The nature of product" /><published>2022-08-01T00:00:00+02:00</published><updated>2022-08-01T00:00:00+02:00</updated><id>http://localhost:4000/2022/08/01/nature_of_product</id><content type="html" xml:base="http://localhost:4000/2022/08/01/nature_of_product/">&lt;p&gt;What exactly does a product manager do?&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">Speaking with users is a topic that is layered enough to fill an entire book. In fact, there are entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.</summary></entry><entry><title type="html">The nature of product</title><link href="http://localhost:4000/nature_of_product.html" rel="alternate" type="text/html" title="The nature of product" /><published>2022-08-01T00:00:00+02:00</published><updated>2022-08-01T00:00:00+02:00</updated><id>http://localhost:4000/nature_of_product</id><content type="html" xml:base="http://localhost:4000/nature_of_product.html">&lt;p&gt;What exactly does a product manager do?&lt;/p&gt;
 
 &lt;p&gt;I recently came across a job advert for a product manager at a European startup. A few weeks later, I noticed that the job title had changed into ‘Technical Product Manager‘ whilst the job description remained very much the same. About a month later, thanks to LinkedIn’s recommendation engine, I realised the same company was now looking for a Product Owner (yes, you guessed it right: the job description hadn’t budged an inch). Something seemed off: either this particular company was using the job title as a keyword in order to generate as many applications as possible, or they were genuinely confused about the role of product within their organisation.&lt;/p&gt;
 
@@ -74,7 +204,7 @@
       &lt;p&gt;I’d recommend, Inspired, his book on product &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">What exactly does a product manager do?</summary></entry><entry><title type="html">Building compelling products — a case study (Intro)</title><link href="http://localhost:4000/2022/07/01/compelling_products_0/" rel="alternate" type="text/html" title="Building compelling products — a case study (Intro)" /><published>2022-07-01T00:00:00+02:00</published><updated>2022-07-01T00:00:00+02:00</updated><id>http://localhost:4000/2022/07/01/compelling_products_0</id><content type="html" xml:base="http://localhost:4000/2022/07/01/compelling_products_0/">&lt;p&gt;I recently undertook a project for a German-backed upskilling provider in West Africa, the intention being to explore ways of connecting tech talent in the continent with companies in Europe. The task at hand was to define what to build: understand the user problems, craft the value proposition, and define the core features that might be required for an MVP.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">What exactly does a product manager do?</summary></entry><entry><title type="html">Building compelling products — a case study (Intro)</title><link href="http://localhost:4000/compelling_products_0.html" rel="alternate" type="text/html" title="Building compelling products — a case study (Intro)" /><published>2022-07-01T00:00:00+02:00</published><updated>2022-07-01T00:00:00+02:00</updated><id>http://localhost:4000/compelling_products_0</id><content type="html" xml:base="http://localhost:4000/compelling_products_0.html">&lt;p&gt;I recently undertook a project for a German-backed upskilling provider in West Africa, the intention being to explore ways of connecting tech talent in the continent with companies in Europe. The task at hand was to define what to build: understand the user problems, craft the value proposition, and define the core features that might be required for an MVP.&lt;/p&gt;
 
 &lt;p&gt;Working on this project got me thinking: could one standardise the process of building compelling products? Was there a ‘loose’ one-size-fits-all strategy to creating something that hasn’t yet achieved product-market fit? I say loose in inverted commas because I am aware that building products is both a science as well as an art, and that context would play a role in any process.&lt;/p&gt;
 
@@ -88,7 +218,7 @@
   &lt;li&gt; Map opportunities to business outcomes. Use this to formulate solutions and assumptions &lt;/li&gt;
   &lt;li&gt; Identify the core features for the product in question; also, performance drivers and differentiators &lt;/li&gt;
   &lt;li&gt; Build a prototype, gather feedback and reiterate &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">I recently undertook a project for a German-backed upskilling provider in West Africa, the intention being to explore ways of connecting tech talent in the continent with companies in Europe. The task at hand was to define what to build: understand the user problems, craft the value proposition, and define the core features that might be required for an MVP.</summary></entry><entry><title type="html">Building compelling products — understanding the market (Part 1)</title><link href="http://localhost:4000/2022/07/01/compelling_products_1/" rel="alternate" type="text/html" title="Building compelling products — understanding the market (Part 1)" /><published>2022-07-01T00:00:00+02:00</published><updated>2022-07-01T00:00:00+02:00</updated><id>http://localhost:4000/2022/07/01/compelling_products_1</id><content type="html" xml:base="http://localhost:4000/2022/07/01/compelling_products_1/">&lt;blockquote&gt;
+&lt;/ol&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">I recently undertook a project for a German-backed upskilling provider in West Africa, the intention being to explore ways of connecting tech talent in the continent with companies in Europe. The task at hand was to define what to build: understand the user problems, craft the value proposition, and define the core features that might be required for an MVP.</summary></entry><entry><title type="html">Building compelling products — understanding the market (Part 1)</title><link href="http://localhost:4000/compelling_products_1.html" rel="alternate" type="text/html" title="Building compelling products — understanding the market (Part 1)" /><published>2022-07-01T00:00:00+02:00</published><updated>2022-07-01T00:00:00+02:00</updated><id>http://localhost:4000/compelling_products_1</id><content type="html" xml:base="http://localhost:4000/compelling_products_1.html">&lt;blockquote&gt;
   &lt;p&gt;🎯 TL;DR:&lt;/p&gt;
 
   &lt;p&gt;Identify the different communities of users for your product, hang out with them (online or offline) to assess likes/dislikes/trends, and mull over things (with the help of some frameworks).&lt;/p&gt;
@@ -218,7 +348,7 @@
       &lt;p&gt;Hick’s Law: the more features you have, the longer a user takes to make a product decision. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">🎯 TL;DR: Identify the different communities of users for your product, hang out with them (online or offline) to assess likes/dislikes/trends, and mull over things (with the help of some frameworks).</summary></entry><entry><title type="html">Designing a landing page test</title><link href="http://localhost:4000/2022/05/01/landing_page_design/" rel="alternate" type="text/html" title="Designing a landing page test" /><published>2022-05-01T00:00:00+02:00</published><updated>2022-05-01T00:00:00+02:00</updated><id>http://localhost:4000/2022/05/01/landing_page_design</id><content type="html" xml:base="http://localhost:4000/2022/05/01/landing_page_design/">&lt;p&gt;In &lt;em&gt;UX For Beginners: A Crash Course in 100 Short Lessons&lt;/em&gt;, Joel Marsh sums
+&lt;/div&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">🎯 TL;DR: Identify the different communities of users for your product, hang out with them (online or offline) to assess likes/dislikes/trends, and mull over things (with the help of some frameworks).</summary></entry><entry><title type="html">Designing a landing page test</title><link href="http://localhost:4000/landing_page_design.html" rel="alternate" type="text/html" title="Designing a landing page test" /><published>2022-05-01T00:00:00+02:00</published><updated>2022-05-01T00:00:00+02:00</updated><id>http://localhost:4000/landing_page_design</id><content type="html" xml:base="http://localhost:4000/landing_page_design.html">&lt;p&gt;In &lt;em&gt;UX For Beginners: A Crash Course in 100 Short Lessons&lt;/em&gt;, Joel Marsh sums
 up the goal of a landing page as showing users where to go and providing
 answers to the following three questions as being key to achieving that:&lt;/p&gt;
 
@@ -252,7 +382,7 @@ somewhere.&lt;/p&gt;
 probably keep it problem-centric and avoid hinting at solutions (I’ve mentioned a gamified environment, for example).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/public/landingpage.png&quot;&gt;&lt;img src=&quot;/public/landingpage.png&quot; alt=&quot;Designing a landing page test&quot; /&gt;&lt;/a&gt;
-&lt;em&gt;Landing page with annotations (click to enlarge)&lt;/em&gt;&lt;/p&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">In UX For Beginners: A Crash Course in 100 Short Lessons, Joel Marsh sums up the goal of a landing page as showing users where to go and providing answers to the following three questions as being key to achieving that:</summary></entry><entry><title type="html">Discovering what to build — lessons learnt</title><link href="http://localhost:4000/2022/04/01/product_discovery/" rel="alternate" type="text/html" title="Discovering what to build — lessons learnt" /><published>2022-04-01T00:00:00+02:00</published><updated>2022-04-01T00:00:00+02:00</updated><id>http://localhost:4000/2022/04/01/product_discovery</id><content type="html" xml:base="http://localhost:4000/2022/04/01/product_discovery/">&lt;p&gt;The one thing that I realised when trying to figure out what to build was how
+&lt;em&gt;Landing page with annotations (click to enlarge)&lt;/em&gt;&lt;/p&gt;</content><author><name>Nandu Rajagopala</name><email>nandu.rajagopala@cantab.net</email></author><summary type="html">In UX For Beginners: A Crash Course in 100 Short Lessons, Joel Marsh sums up the goal of a landing page as showing users where to go and providing answers to the following three questions as being key to achieving that:</summary></entry><entry><title type="html">Discovering what to build — lessons learnt</title><link href="http://localhost:4000/product_discovery.html" rel="alternate" type="text/html" title="Discovering what to build — lessons learnt" /><published>2022-04-01T00:00:00+02:00</published><updated>2022-04-01T00:00:00+02:00</updated><id>http://localhost:4000/product_discovery</id><content type="html" xml:base="http://localhost:4000/product_discovery.html">&lt;p&gt;The one thing that I realised when trying to figure out what to build was how
 experimental, iterative and subjective the whole process tends to be. I
 doubt if anyone who launches a successful product ever does so fully knowing
 what form it would finally take or if it would ever go down as intended with
