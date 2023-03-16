@@ -6,9 +6,13 @@ date: April 2022
 image: /public/discovery.jpg
 ---
 
+[![Product discovery](/public/discovery.jpg)](/public/discovery.jpg)
+
 The one thing I realised when trying to figure out what to build was how experimental, iterative, and subjective the whole process tends to be. I doubt if anyone who launches a successful product ever does so fully knowing what form it would finally take or if it would ever go down as intended with their target user base. Of course, there are well-known examples of now household brands having to change course when they first started: Instagram, for example, began as a location-sharing app.
 
-But reading is one thing and living through it is another. I have summarised below my experience in figuring out what to build in the EdTech space and the lessons it reinforced. I call it reinforced because, through reading/classes, etc., some version of these lessons had been wedged in my head but being in the thick of things brought them to the fore and threw a whole new set of challenges that showed product discovery in a new light.
+But reading is one thing and living through it is another.
+
+I have summarised below my experience in figuring out what to build in the EdTech space and the lessons it reinforced. I call it reinforced because, through reading/classes, etc., some version of these lessons had been wedged in my head but being in the thick of things brought them to the fore and threw a whole new set of challenges that showed product discovery in a new light.
 
 ### Lesson One: First, own the problem space
 
