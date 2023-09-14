@@ -5,6 +5,8 @@ description: The second instalment in the series explores the nuances and best p
 date: September 2022
 ---
 
+[![Talking to users](/public/talking.jpg)](/public/talking.jpg)
+
 Speaking with users is a topic that is layered enough to fill an entire book. In fact, there *are* entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.
 
 As far as interviews go, there are three areas that determine their effectiveness:

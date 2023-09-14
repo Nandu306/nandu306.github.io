@@ -4,7 +4,7 @@
  <title>Nandu Rajagopala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-09-08T15:55:02+02:00</updated>
+ <updated>2023-09-14T10:11:01+02:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nandu Rajagopala</name>
@@ -156,7 +156,9 @@
    <link href="http://localhost:4000/talking_to_users.html"/>
    <updated>2022-09-01T00:00:00+02:00</updated>
    <id>http://localhost:4000/talking_to_users</id>
-   <content type="html">&lt;p&gt;Speaking with users is a topic that is layered enough to fill an entire book. In fact, there &lt;em&gt;are&lt;/em&gt; entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/public/talking.jpg&quot;&gt;&lt;img src=&quot;/public/talking.jpg&quot; alt=&quot;Talking to users&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaking with users is a topic that is layered enough to fill an entire book. In fact, there &lt;em&gt;are&lt;/em&gt; entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.&lt;/p&gt;
 
 &lt;p&gt;As far as interviews go, there are three areas that determine their effectiveness:&lt;/p&gt;
 &lt;ol&gt;
