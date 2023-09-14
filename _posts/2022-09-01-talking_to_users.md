@@ -3,6 +3,7 @@ layout: post
 title: Building compelling products — talking to users (Part 2)
 description: The second instalment in the series explores the nuances and best practices involved in user interviews.
 date: September 2022
+image: /public/talking.jpg
 ---
 
 [![Talking to users](/public/talking.jpg)](/public/talking.jpg)
