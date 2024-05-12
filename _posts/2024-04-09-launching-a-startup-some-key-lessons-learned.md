@@ -2,7 +2,7 @@
 layout: post
 title: "Launching a startup — some key lessons learned"
 description: Testing whole ideas is a waste of time, money and effort. Focusing on the underlying assumptions within a set of ideas is the best way forward.
-date: May 2024
+date: Apr 2024
 image: /public/Prototype.png
 ---
 
