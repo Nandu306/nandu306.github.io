@@ -87,3 +87,10 @@ ul {
     text-align: left;
   }
 }
+
+img + em {
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-size: smaller;
+}
