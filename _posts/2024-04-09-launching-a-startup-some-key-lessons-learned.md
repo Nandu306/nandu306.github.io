@@ -8,7 +8,7 @@ image: /public/Prototype.png
 
 I spent the second half of 2023 building ScienceQuests (a gamified web app to help kids learn science) and exploring ways of making online learning more effective and engaging for kids. Having spent some time researching how people learn, talking to potential users, building/testing a prototype, and refining my pitch for a competitive startup grant that I was shortlisted for, I thought I'd summarise some lessons that I learnt from the overall experience.
 
-[![Testing](/public/Prototype.png)](/public/Prototype.png)
+[![ScienceQuests prototype](/public/Prototype.png)](/public/Prototype.png)
 *An initial prototype of ScienceQuests*
 
 👉🏽 It isn't enough to solve a problem; the key question is whether you are tackling a problem that customers would pay money to have solved. It can be sometimes difficult to separate signals from noise; is there really a problem or do you just want there to be a problem? Or are you force-fitting a pet solution onto what seems like a problem? In the world of parents and schools and education, the guiding light, unfortunately, is grades in an important exam, not learning for its own sake.

@@ -4,7 +4,7 @@
  <title>Nandu Rajagopala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-05-15T22:37:59+02:00</updated>
+ <updated>2024-05-27T09:47:38+02:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nandu Rajagopala</name>
@@ -13,13 +13,46 @@
 
  
  <entry>
+   <title>Cases, whiteboards, and lectures: reflections and lessons learned in university teaching</title>
+   <link href="http://localhost:4000/reflections-and-lessons-learned-in-university-teaching.html"/>
+   <updated>2024-05-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/reflections-and-lessons-learned-in-university-teaching</id>
+   <content type="html">&lt;p&gt;As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester at a university (or as the German system goes: a university of applied sciences). It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.&lt;/p&gt;
+
+&lt;p&gt;From leading case sessions to conducting mini-workshops to responding in real-time to issues that sprang up, I thought I’d pen down some things that I’d learned, observed, and mulled over as a new lecturer.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/teaching.png&quot;&gt;&lt;img src=&quot;/public/teaching.png&quot; alt=&quot;Photo of a business case&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;new-learnings&quot;&gt;New learnings:&lt;/h3&gt;
+&lt;p&gt;👉🏽 In an academic environment where the go-to tool was the traditional lecture, basing my teaching pedagogy around the case method was certainly a risk-ridden move, more so because I was unfamiliar with the student body. Being ‘audacious’ showed me that I have the capacity to go with the flow and, with time, I’ve become comfortable with my ability to do so. Of course, preparing beforehand for the case and the case method was crucial and provided an invaluable structure, but the reality of teaching is that you can’t plan everything to a T.&lt;/p&gt;
+
+&lt;p&gt;👉🏽 There is a lot of uncertainty that surrounds the classroom experience and that’s one reason why the traditional lecture still dominates. I felt much more in control with a lecture and less dependent on external factors (e.g. student participation or preparation). In any case, given the long class sessions (2.5 hours), I opted for a 50:50 split between lecture and case during a class. Did the strategy work well? I’d say it worked positively with an MBA class but not so much with a postgrad course (presumably because the former had paid more, had some work experience, and was more invested in the course); I found myself having to pivot from the case method for one class very early on due to low engagement.&lt;/p&gt;
+
+&lt;p&gt;👉🏽 Teaching, in essence, is creative problem-solving, with the end goal of enabling students to learn the material in a way that suits them best. There was a fair amount of trial and error when trying to achieve this, especially as I was working in a non-selective environment. For example, when I realised that full-blown cases just weren’t resonating with some students, I tried shorter cases that could be read during class time. And when the topic was more practical and hands-on (design thinking), then the tool of choice was a workshop-style design activity.&lt;/p&gt;
+
+&lt;p&gt;👉🏽 Teaching is also about performance and storytelling. A gamut of facial and body expressions generally run through the class at various points: interest, enthusiasm, boredom, arrogance, disinterest, and cynicism. Having a thick skin through all of this to deliver your lesson plan takes a toll, especially if you are dealing with difficult or disruptive students, and I can only hope that this experience has moulded me for the better.&lt;/p&gt;
+
+&lt;p&gt;👉🏽 Given that my class was mostly international with varying ability levels and backgrounds, I had to juggle different cultural norms and understandings of personal space. I don’t have a clear solution to this, but going forward, I intend to address this on the first day of a course so that expectations and boundaries are established early on.&lt;/p&gt;
+
+&lt;p&gt;👉🏽 Sitting on the other side of a class for the first time, the biggest learning was how demanding a teaching job can be. If all goes well, it can certainly have its highs. At the end of the day, I can only hope that being in my class made a positive difference in someone’s life, either personally or professionally.  &lt;/p&gt;
+
+&lt;h3 id=&quot;food-for-thought&quot;&gt;Food for thought:&lt;/h3&gt;
+&lt;p&gt;👉🏽 This is a contentious point and gets written about a lot: while universities get more and more commercialised, students adopt a more customer-centric attitude. This shift raises questions about maintaining an honest, mutual two-way understanding between educators and students without fear of retribution. I’ve read a few posts online where lecturers talk about being caught in the middle (bullying students and dismissive management), and it honestly doesn’t sound like a recipe for long-term learning and development. &lt;/p&gt;
+
+&lt;p&gt;👉🏽 I’m not sure what the data on this suggests, but looking at learning from the other side of the table, I can’t help but speak in favour of selective classes at the tertiary level. I’ve seen bright students get dragged down by mediocre ones who have no interest in the subject or learning in general. There needs to be access to good-quality education for everyone but universities simply can’t be the place where poor parenting and educational deficiencies can be corrected.&lt;/p&gt;
+
+&lt;p&gt;👉🏽 There seems to be an explosion in &lt;a href=&quot;https://medium.com/emerge-edtech-insights/challenger-universities-pt-3a-the-challenger-university-landscape-f7300bce7db2&quot; target=&quot;_blank&quot;&gt;‘challenger’ universities&lt;/a&gt; that cater to different needs. Whilst there are some proven, long-established ones like the African Leadership University, and more recent, interesting ones like the London Interdisciplinary School, I’m doubtful of institutions that create degrees to cater to a job market (I’ve seen places that offer degrees in product management, for example). The latter might help short-term, but education, learning, and universities, especially in a world where things change constantly, cater to different needs. &lt;a href=&quot;https://www.amazon.com/Career-Arts-College-Credentials-Connections/dp/0691239797/ref=sr_1_1?crid=1FXA014PP11Y2&amp;amp;dib=eyJ2IjoiMSJ9.n2zTXwYwl6uK4Q6HPEGTvvHADfe_fpcXEAyNTCAL-pTBwKPHbh6JLyOASiaxRoUnKCf9NnBFFGO_fd2le-wUjt2NkhXwHN_XvuTEbXICPOpeANWWn67HKtgodIcrOYAwxK5GvBOKzKdubaTm9C6GgqDucULyeLma0qszxOtDouUMfOIMy-60eoR8FH82txr2PbunbevATMqFXIbD65qa_sbMwTH7kZb-ddBlFTjmKxM.qLA8VIs13cg6VYyjkTJpWOZq2TB5ZHySh9g_p4rfPVE&amp;amp;dib_tag=se&amp;amp;keywords=career+arts+ben&amp;amp;qid=1716721230&amp;amp;sprefix=career+arts+ben%2Caps%2C772&amp;amp;sr=8-1&quot; target=&quot;_blank&quot;&gt;The Career Arts&lt;/a&gt; by Ben Wildavsky makes a much more convincing argument for why traditional colleges and vocational avenues such as bootcamps exist. Essentially, Wildavsky says that colleges and universities provide a foundation for critical thinking and intellectual pursuits whereas bootcamps and other vocational certifications act as valuable add-ons to one’s career. In this spirit, it shouldn’t be an either/or decision and any degree that doesn’t teach you the fundamentals of learning or create an environment for personal growth is best avoided. &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Launching a startup — some key lessons learned</title>
    <link href="http://localhost:4000/launching-a-startup-some-key-lessons-learned.html"/>
    <updated>2024-04-01T00:00:00+02:00</updated>
    <id>http://localhost:4000/launching-a-startup-some-key-lessons-learned</id>
    <content type="html">&lt;p&gt;I spent the second half of 2023 building ScienceQuests (a gamified web app to help kids learn science) and exploring ways of making online learning more effective and engaging for kids. Having spent some time researching how people learn, talking to potential users, building/testing a prototype, and refining my pitch for a competitive startup grant that I was shortlisted for, I thought I’d summarise some lessons that I learnt from the overall experience.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/Prototype.png&quot;&gt;&lt;img src=&quot;/public/Prototype.png&quot; alt=&quot;Testing&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;/public/Prototype.png&quot;&gt;&lt;img src=&quot;/public/Prototype.png&quot; alt=&quot;ScienceQuests prototype&quot; /&gt;&lt;/a&gt;
 &lt;em&gt;An initial prototype of ScienceQuests&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;👉🏽 It isn’t enough to solve a problem; the key question is whether you are tackling a problem that customers would pay money to have solved. It can be sometimes difficult to separate signals from noise; is there really a problem or do you just want there to be a problem? Or are you force-fitting a pet solution onto what seems like a problem? In the world of parents and schools and education, the guiding light, unfortunately, is grades in an important exam, not learning for its own sake.&lt;/p&gt;
