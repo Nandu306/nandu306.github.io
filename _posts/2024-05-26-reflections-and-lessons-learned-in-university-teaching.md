@@ -3,14 +3,14 @@ layout: post
 title: "Cases, whiteboards, and lectures: reflections and lessons learned in university teaching"
 description: Challenges, learnings, and evolving dynamics in higher education from the perspective of a new lecturer.
 date: May 2024
-image: /public/teaching.png
+image: /public/teaching.jpg
 ---
 
 As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester at a university (or as the German system goes: a university of applied sciences). It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.
 
 From leading case sessions to conducting mini-workshops to responding in real-time to issues that sprang up, I thought I’d pen down some things that I’d learned, observed, and mulled over as a new lecturer.
 
-[![Photo of a business case](/public/teaching.png)](/public/teaching.png)
+[![Photo of a business case](/public/teaching.jpg)](/public/teaching.jpg)
 
 ### New learnings: 
 👉🏽 In an academic environment where the go-to tool was the traditional lecture, basing my teaching pedagogy around the case method was certainly a risk-ridden move, more so because I was unfamiliar with the student body. Taking an 'audacious’ approach showed me that I have the capacity to go with the flow and, with time, I've become comfortable with my ability to do so. Of course, preparing beforehand for the case and the case method was crucial and provided an invaluable structure, but the reality of teaching is that you can’t plan everything to a T.
