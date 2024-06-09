@@ -21,13 +21,20 @@
         <h2> {{ page.title }} </h2>
         {% include sharebar.html %}
         <small> {{ page.date | date: "%b %Y" }}</small>
+        
 
 
-          <div class="article-text">
+        <div class="article-text">
 
-            {{ content }}
+          {{ content }}
 
-          </div>
+        </div>
+
+        <!-- <div class="tag-area">
+          {% for tag in page.tags %}
+            <small> <div class="tag-box"> {{ tag | upcase }} </div> </small>
+          {% endfor %}
+        </div> -->
 
       </main>
 

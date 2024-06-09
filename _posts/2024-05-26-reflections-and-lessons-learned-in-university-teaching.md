@@ -4,6 +4,7 @@ title: "Cases, whiteboards, and lectures: reflections and lessons learned in uni
 description: Challenges, learnings, and evolving dynamics in higher education from the perspective of a new lecturer.
 date: May 2024
 image: /public/teaching.jpg
+tags: teaching lecturer case-method
 ---
 
 As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester at a university (or as the German system goes: a university of applied sciences). It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.
