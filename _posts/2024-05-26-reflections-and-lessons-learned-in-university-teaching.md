@@ -7,14 +7,14 @@ image: /public/teaching.jpg
 tags: teaching lecturer case-method
 ---
 
-As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester at a university (or as the German system goes: a university of applied sciences). It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.
+As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester as an adjunct lecturer at a university of applied sciences in Berlin. It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.
 
 From leading case sessions to conducting mini-workshops to responding in real-time to issues that sprang up, I thought I’d pen down some things that I’d learned, observed, and mulled over as a new lecturer.
 
 [![Photo of a business case](/public/teaching.jpg)](/public/teaching.jpg)
 
 ### New learnings: 
-👉🏽 In an academic environment where the go-to tool was the traditional lecture, basing my teaching pedagogy around the case method was certainly a risk-ridden move, more so because I was unfamiliar with the student body. Taking an 'audacious’ approach showed me that I have the capacity to go with the flow and, with time, I've become comfortable with my ability to do so. Of course, preparing beforehand for the case and the case method was crucial and provided an invaluable structure, but the reality of teaching is that you can’t plan everything to a T.
+👉🏽 In an academic environment where the go-to tool was the traditional lecture, basing my teaching pedagogy around the case method was certainly a risk-ridden move, more so because I was unfamiliar with the student body. Taking this risk helped me discover I could adapt and improvise when needed. Of course, preparing beforehand for the case and the case method was crucial and provided an invaluable structure, but the reality of teaching is that you can’t plan everything to a T.
 
 👉🏽 There is a lot of uncertainty that surrounds the classroom experience and that’s one reason why the traditional lecture still dominates. I felt much more in control with a lecture and less dependent on external factors (e.g. student participation or preparation). In any case, given the long class sessions (2.5 hours), I opted for a 50:50 split between lecture and case during a class. Did the strategy work well? I’d say it worked positively with an MBA class but not so much with a postgrad course (presumably because the former had paid more, had some work experience, and was more invested in the course); I found myself having to pivot from the case method for one class very early on due to low engagement.
 
