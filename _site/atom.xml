@@ -4,7 +4,7 @@
  <title>Nandu Rajagopala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-06-09T20:25:25+02:00</updated>
+ <updated>2025-01-29T19:00:49+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nandu Rajagopala</name>
@@ -17,14 +17,14 @@
    <link href="http://localhost:4000/reflections-and-lessons-learned-in-university-teaching.html"/>
    <updated>2024-05-01T00:00:00+02:00</updated>
    <id>http://localhost:4000/reflections-and-lessons-learned-in-university-teaching</id>
-   <content type="html">&lt;p&gt;As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester at a university (or as the German system goes: a university of applied sciences). It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.&lt;/p&gt;
+   <content type="html">&lt;p&gt;As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester as an adjunct lecturer at a university of applied sciences in Berlin. It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.&lt;/p&gt;
 
 &lt;p&gt;From leading case sessions to conducting mini-workshops to responding in real-time to issues that sprang up, I thought I’d pen down some things that I’d learned, observed, and mulled over as a new lecturer.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/public/teaching.jpg&quot;&gt;&lt;img src=&quot;/public/teaching.jpg&quot; alt=&quot;Photo of a business case&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;new-learnings&quot;&gt;New learnings:&lt;/h3&gt;
-&lt;p&gt;👉🏽 In an academic environment where the go-to tool was the traditional lecture, basing my teaching pedagogy around the case method was certainly a risk-ridden move, more so because I was unfamiliar with the student body. Taking an ‘audacious’ approach showed me that I have the capacity to go with the flow and, with time, I’ve become comfortable with my ability to do so. Of course, preparing beforehand for the case and the case method was crucial and provided an invaluable structure, but the reality of teaching is that you can’t plan everything to a T.&lt;/p&gt;
+&lt;p&gt;👉🏽 In an academic environment where the go-to tool was the traditional lecture, basing my teaching pedagogy around the case method was certainly a risk-ridden move, more so because I was unfamiliar with the student body. Taking this risk helped me discover I could adapt and improvise when needed. Of course, preparing beforehand for the case and the case method was crucial and provided an invaluable structure, but the reality of teaching is that you can’t plan everything to a T.&lt;/p&gt;
 
 &lt;p&gt;👉🏽 There is a lot of uncertainty that surrounds the classroom experience and that’s one reason why the traditional lecture still dominates. I felt much more in control with a lecture and less dependent on external factors (e.g. student participation or preparation). In any case, given the long class sessions (2.5 hours), I opted for a 50:50 split between lecture and case during a class. Did the strategy work well? I’d say it worked positively with an MBA class but not so much with a postgrad course (presumably because the former had paid more, had some work experience, and was more invested in the course); I found myself having to pivot from the case method for one class very early on due to low engagement.&lt;/p&gt;
 
@@ -538,13 +538,13 @@ probably keep it problem-centric and avoid hinting at solutions (I’ve mentione
 
 &lt;p&gt;Idea in place, I rolled my sleeves and started building the web app. The struggles faced in this endeavour and the associated learnings should be an entire article in its own right but suffice it to say that once I had emerged from many a rabbit hole that I had dug for myself, I had a shiny new tool that (a) looked good (I had paid attention to basic UX/UI) and (b) did what it was meant to do. My line of thinking about the product being a non-issue would have been fine if I had stopped it at that. Alas, not. Chuffed by what I had managed to build on my own and swept away by my optimism, I reached out to a few schools and set up meetings to show them my handiwork. For some reason, in that adrenaline-fuelled moment, the image that I had in mind of a teacher was the one that I had encountered at school: not very tech-savvy nor open to embracing the tools of the future.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/mojo-1.png&quot;&gt;&lt;img src=&quot;/public/mojo-1.png&quot; alt=&quot;Teachers' dashboard&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;/public/mojo-1.png&quot;&gt;&lt;img src=&quot;/public/mojo-1.png&quot; alt=&quot;Teachers&apos; dashboard&quot; /&gt;&lt;/a&gt;
 &lt;em&gt;Teachers’ Dashboard&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/public/mojo-2.png&quot;&gt;&lt;img src=&quot;/public/mojo-2.png&quot; alt=&quot;Assignment setting&quot; /&gt;&lt;/a&gt;
 &lt;em&gt;Assignment setting&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/mojo-3.png&quot;&gt;&lt;img src=&quot;/public/mojo-3.png&quot; alt=&quot;Students' Dasnboard&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;/public/mojo-3.png&quot;&gt;&lt;img src=&quot;/public/mojo-3.png&quot; alt=&quot;Students&apos; Dasnboard&quot; /&gt;&lt;/a&gt;
 &lt;em&gt;Students’ Dashboard&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;It was an awakening when, after patiently listening to my product demo, the first teacher asked me how it differed from Google Classrooms. I remember mumbling about the app being more intuitive and easier to use. But, I knew in my heart that it was not a compelling reason for anyone to undertake a significant shift in their way of working. Another conversation with another school went the same way. It took a moment of discomfort to sink in that schools had adapted for the pandemic and that I was putting the cart before the horse. Indirectly, I’d embodied what those with some technical skills fall prey to: rushing to build. I should have first immersed myself in that space, identifying schools’ needs/problems/desires and whether they were painful enough for them to resolve by paying money. The target user base and their problems should have come first.&lt;/p&gt;
@@ -567,7 +567,7 @@ probably keep it problem-centric and avoid hinting at solutions (I’ve mentione
 
 &lt;p&gt;Again, to test my hypothesis, I created a landing page highlighting some key problems (distilled from my user research) and shared the web link on the Facebook groups I was part of. Within a week, I had about fifty people who had signed up to receive a notification on launch. Fifty with whom I could have one-on-one conversations to refine the idea or stumble upon new ones.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/mojo-4.png&quot;&gt;&lt;img src=&quot;/public/mojo-4.png&quot; alt=&quot;Students' Dashboard&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;/public/mojo-4.png&quot;&gt;&lt;img src=&quot;/public/mojo-4.png&quot; alt=&quot;Students&apos; Dashboard&quot; /&gt;&lt;/a&gt;
 &lt;em&gt;The landing page test&lt;/em&gt;&lt;/p&gt;
 
 </content>
