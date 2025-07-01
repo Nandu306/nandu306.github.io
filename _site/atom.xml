@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nandu Rajagopala</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2025-07-01T11:10:50+02:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://nandu306.github.io//atom.xml" rel="self"/>
+ <link href="https://nandu306.github.io//"/>
+ <updated>2025-07-01T11:23:10+02:00</updated>
+ <id>https://nandu306.github.io/</id>
  <author>
    <name>Nandu Rajagopala</name>
    <email>nandu.rajagopala@cantab.net</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>From Apps to Agents: How AI is Becoming Personal</title>
-   <link href="http://localhost:4000/from-apps-to-ai-agents.html"/>
+   <link href="https://nandu306.github.io//from-apps-to-ai-agents.html"/>
    <updated>2025-05-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/from-apps-to-ai-agents</id>
+   <id>https://nandu306.github.io//from-apps-to-ai-agents</id>
    <content type="html">&lt;p&gt;If 2024 was about AI chat interfaces, 2025 is all about AI agents - digital elves that actually do some heavy-lifting on your behalf, personalised to your whims and fantasies, without your intervention. This could be anything from planning and booking a holiday to managing your social media presence or updating your CRM system with a new blog post.&lt;/p&gt;
 
 &lt;p&gt;But the implications go far beyond personal productivity - we’re talking about AI agents that could replace entire job functions, from research analysts to executive assistants.&lt;/p&gt;
@@ -27,7 +27,7 @@
 
 &lt;p&gt;Although there are quite a few no-code tools to choose from (&lt;a href=&quot;https://www.make.com/en&quot; target=&quot;_blank&quot;&gt;Make&lt;/a&gt;, &lt;a href=&quot;https://n8n.io/&quot; target=&quot;_blank&quot;&gt;n8n&lt;/a&gt;, &lt;a href=&quot;https://www.lindy.ai/&quot;&gt;Lindy&lt;/a&gt;, &lt;a href=&quot;https://zapier.com/&quot;&gt;Zapier&lt;/a&gt;), I chose &lt;a href=&quot;https://www.relay.app/&quot; target=&quot;_blank&quot;&gt;Relay.app&lt;/a&gt; for its intuitive design, simplified workflow setup and the amount of resources available online. The workflow (as shown in the screenshot below) is straightforward: the agent is triggered every day at 8am; it checks the RSS feed of Die Zeit (a leading German news provider); an AI model then rewrites the news item to my B2 proficiency level, including vocabulary and grammar explanations in English; and finally, an email is sent to me.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/public/ai_workflow.png&quot;&gt;&lt;img src=&quot;/public/ai_workflow.png&quot; alt=&quot;Photo of an AI agent workflow on Relay.app&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/public/AI_workflow.png&quot;&gt;&lt;img src=&quot;/public/AI_workflow.png&quot; alt=&quot;Photo of an AI agent workflow on Relay.app&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For those interested in the prompt mechanics, I have included the prompt as well. I opted to use Gemini’s 2.5 Flash as it is generally known to be good at language-related tasks (Relay.app gives the option to choose your model).&lt;/p&gt;
 
@@ -100,9 +100,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Cases, whiteboards, and lectures: reflections and lessons learned in university teaching</title>
-   <link href="http://localhost:4000/reflections-and-lessons-learned-in-university-teaching.html"/>
+   <link href="https://nandu306.github.io//reflections-and-lessons-learned-in-university-teaching.html"/>
    <updated>2024-05-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/reflections-and-lessons-learned-in-university-teaching</id>
+   <id>https://nandu306.github.io//reflections-and-lessons-learned-in-university-teaching</id>
    <content type="html">&lt;p&gt;As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester as an adjunct lecturer at a university of applied sciences in Berlin. It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.&lt;/p&gt;
 
 &lt;p&gt;From leading case sessions to conducting mini-workshops to responding in real-time to issues that sprang up, I thought I’d pen down some things that I’d learned, observed, and mulled over as a new lecturer.&lt;/p&gt;
@@ -133,9 +133,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Launching a startup — some key lessons learned</title>
-   <link href="http://localhost:4000/launching-a-startup-some-key-lessons-learned.html"/>
+   <link href="https://nandu306.github.io//launching-a-startup-some-key-lessons-learned.html"/>
    <updated>2024-04-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/launching-a-startup-some-key-lessons-learned</id>
+   <id>https://nandu306.github.io//launching-a-startup-some-key-lessons-learned</id>
    <content type="html">&lt;p&gt;I spent the second half of 2023 building ScienceQuests (a gamified web app to help kids learn science) and exploring ways of making online learning more effective and engaging for kids. Having spent some time researching how people learn, talking to potential users, building/testing a prototype, and refining my pitch for a competitive startup grant that I was shortlisted for, I thought I’d summarise some lessons that I learnt from the overall experience.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/public/Prototype.png&quot;&gt;&lt;img src=&quot;/public/Prototype.png&quot; alt=&quot;ScienceQuests prototype&quot; /&gt;&lt;/a&gt;
@@ -165,9 +165,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Test assumptions, not ideas</title>
-   <link href="http://localhost:4000/test-assumptions-not-ideas.html"/>
+   <link href="https://nandu306.github.io//test-assumptions-not-ideas.html"/>
    <updated>2023-03-01T00:00:00+01:00</updated>
-   <id>http://localhost:4000/test-assumptions-not-ideas</id>
+   <id>https://nandu306.github.io//test-assumptions-not-ideas</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/public/testing.jpg&quot;&gt;&lt;img src=&quot;/public/testing.jpg&quot; alt=&quot;Testing&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;How do you know if an idea has wings?&lt;/p&gt;
@@ -304,9 +304,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Building compelling products — talking to users (Part 2)</title>
-   <link href="http://localhost:4000/talking_to_users.html"/>
+   <link href="https://nandu306.github.io//talking_to_users.html"/>
    <updated>2022-09-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/talking_to_users</id>
+   <id>https://nandu306.github.io//talking_to_users</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/public/talking.jpg&quot;&gt;&lt;img src=&quot;/public/talking.jpg&quot; alt=&quot;Talking to users&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Speaking with users is a topic that is layered enough to fill an entire book. In fact, there &lt;em&gt;are&lt;/em&gt; entire books dedicated to the subject; The Mom Test and Continuous Discovery Habits are popular examples that cover the topic in detail. This being a chronicle of sorts, I will stick to some of the techniques I used and the tips and tricks that I made note of (and tried to apply) from various different sources. Since we are talking about deep dives to figure out what to build (that is, the initial phase of product development), customer interviews are an integral research technique.&lt;/p&gt;
@@ -359,9 +359,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>The nature of product</title>
-   <link href="http://localhost:4000/nature_of_product.html"/>
+   <link href="https://nandu306.github.io//nature_of_product.html"/>
    <updated>2022-08-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/nature_of_product</id>
+   <id>https://nandu306.github.io//nature_of_product</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/public/product_team.jpg&quot;&gt;&lt;img src=&quot;/public/product_team.jpg&quot; alt=&quot;Product-led companies&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;What exactly does a product manager do?&lt;/p&gt;
@@ -402,9 +402,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Building compelling products — understanding the market (Part 1)</title>
-   <link href="http://localhost:4000/compelling_products_1.html"/>
+   <link href="https://nandu306.github.io//compelling_products_1.html"/>
    <updated>2022-07-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/compelling_products_1</id>
+   <id>https://nandu306.github.io//compelling_products_1</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;🎯 TL;DR:&lt;/p&gt;
 
@@ -541,9 +541,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Building compelling products — a case study (Intro)</title>
-   <link href="http://localhost:4000/compelling_products_0.html"/>
+   <link href="https://nandu306.github.io//compelling_products_0.html"/>
    <updated>2022-07-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/compelling_products_0</id>
+   <id>https://nandu306.github.io//compelling_products_0</id>
    <content type="html">&lt;p&gt;I recently undertook a project for a German-backed upskilling provider in West Africa, the intention being to explore ways of connecting tech talent in the continent with companies in Europe. The task at hand was to define what to build: understand the user problems, craft the value proposition, and define the core features that might be required for an MVP.&lt;/p&gt;
 
 &lt;p&gt;Working on this project got me thinking: could one standardise the process of building compelling products? Was there a ‘loose’ one-size-fits-all strategy to creating something that hasn’t yet achieved product-market fit? I say loose in inverted commas because I am aware that building products is both a science as well as an art, and that context would play a role in any process.&lt;/p&gt;
@@ -564,9 +564,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Designing a landing page test</title>
-   <link href="http://localhost:4000/landing_page_design.html"/>
+   <link href="https://nandu306.github.io//landing_page_design.html"/>
    <updated>2022-05-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/landing_page_design</id>
+   <id>https://nandu306.github.io//landing_page_design</id>
    <content type="html">&lt;p&gt;In &lt;em&gt;UX For Beginners: A Crash Course in 100 Short Lessons&lt;/em&gt;, Joel Marsh sums
 up the goal of a landing page as showing users where to go and providing
 answers to the following three questions as being key to achieving that:&lt;/p&gt;
@@ -607,9 +607,9 @@ probably keep it problem-centric and avoid hinting at solutions (I’ve mentione
  
  <entry>
    <title>Discovering what to build — lessons learnt</title>
-   <link href="http://localhost:4000/product_discovery.html"/>
+   <link href="https://nandu306.github.io//product_discovery.html"/>
    <updated>2022-04-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/product_discovery</id>
+   <id>https://nandu306.github.io//product_discovery</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/public/discovery.jpg&quot;&gt;&lt;img src=&quot;/public/discovery.jpg&quot; alt=&quot;Product discovery&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The one thing I realised when trying to figure out what to build was how experimental, iterative, and subjective the whole process tends to be. I doubt if anyone who launches a successful product ever does so fully knowing what form it would finally take or if it would ever go down as intended with their target user base. Of course, there are well-known examples of now household brands having to change course when they first started: Instagram, for example, began as a location-sharing app.&lt;/p&gt;
