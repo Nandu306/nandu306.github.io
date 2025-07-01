@@ -16,7 +16,7 @@ In the spirit of exploring, especially as there now seems to be plenty of no-cod
 
 Although there are quite a few no-code tools to choose from (<a href="https://www.make.com/en" target="_blank">Make</a>, <a href="https://n8n.io/" target="_blank">n8n</a>, <a href="https://www.lindy.ai/">Lindy</a>, <a href="https://zapier.com/">Zapier</a>), I chose <a href="https://www.relay.app/" target="_blank">Relay.app</a> for its intuitive design, simplified workflow setup and the amount of resources available online. The workflow (as shown in the screenshot below) is straightforward: the agent is triggered every day at 8am; it checks the RSS feed of Die Zeit (a leading German news provider); an AI model then rewrites the news item to my B2 proficiency level, including vocabulary and grammar explanations in English; and finally, an email is sent to me.
 
-[![Photo of an AI agent workflow on Relay.app](/public/ai_workflow.png)](/public/ai_workflow.png)
+[![Photo of an AI agent workflow on Relay.app](/public/AI_workflow.png)](/public/AI_workflow.png)
 
 For those interested in the prompt mechanics, I have included the prompt as well. I opted to use Gemini's 2.5 Flash as it is generally known to be good at language-related tasks (Relay.app gives the option to choose your model).
 
