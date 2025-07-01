@@ -3,7 +3,7 @@ layout: post
 title: "From Apps to Agents: How AI is Becoming Personal"
 description: How I built an AI agent for German learning and what it signals about the future of personalised software
 date: May 2025
-image: /public/teaching.jpg
+image: /public/AI_workflow.png
 ---
 
 If 2024 was about AI chat interfaces, 2025 is all about AI agents - digital elves that actually do some heavy-lifting on your behalf, personalised to your whims and fantasies, without your intervention. This could be anything from planning and booking a holiday to managing your social media presence or updating your CRM system with a new blog post.
