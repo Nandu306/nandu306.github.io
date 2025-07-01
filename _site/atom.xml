@@ -4,13 +4,99 @@
  <title>Nandu Rajagopala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2025-06-02T14:37:51+02:00</updated>
+ <updated>2025-07-01T11:10:50+02:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Nandu Rajagopala</name>
    <email>nandu.rajagopala@cantab.net</email>
  </author>
 
+ 
+ <entry>
+   <title>From Apps to Agents: How AI is Becoming Personal</title>
+   <link href="http://localhost:4000/from-apps-to-ai-agents.html"/>
+   <updated>2025-05-01T00:00:00+02:00</updated>
+   <id>http://localhost:4000/from-apps-to-ai-agents</id>
+   <content type="html">&lt;p&gt;If 2024 was about AI chat interfaces, 2025 is all about AI agents - digital elves that actually do some heavy-lifting on your behalf, personalised to your whims and fantasies, without your intervention. This could be anything from planning and booking a holiday to managing your social media presence or updating your CRM system with a new blog post.&lt;/p&gt;
+
+&lt;p&gt;But the implications go far beyond personal productivity - we’re talking about AI agents that could replace entire job functions, from research analysts to executive assistants.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-ai-agent-product&quot;&gt;The AI Agent Product:&lt;/h3&gt;
+
+&lt;p&gt;In the spirit of exploring, especially as there now seems to be plenty of no-code AI automation options, I built a tool that addresses a personal pain-point: finding and reading German content at my right proficiency level. Having now finished with formal classes (I spent the past 8 months learning German in an evening class), it has been challenging to expose myself on a recurring basis to the language, especially as my day-to-day life doesn’t revolve around German. Whilst &lt;a href=&quot;https://www.nachrichtenleicht.de/&quot; target=&quot;_blank&quot;&gt;Nachrichtenleicht&lt;/a&gt; is an option, I wanted something more personalised with some grammar pointers thrown in. I also wanted something that would be sent to me so that I don’t leave things to chance.&lt;/p&gt;
+
+&lt;p&gt;Although there are quite a few no-code tools to choose from (&lt;a href=&quot;https://www.make.com/en&quot; target=&quot;_blank&quot;&gt;Make&lt;/a&gt;, &lt;a href=&quot;https://n8n.io/&quot; target=&quot;_blank&quot;&gt;n8n&lt;/a&gt;, &lt;a href=&quot;https://www.lindy.ai/&quot;&gt;Lindy&lt;/a&gt;, &lt;a href=&quot;https://zapier.com/&quot;&gt;Zapier&lt;/a&gt;), I chose &lt;a href=&quot;https://www.relay.app/&quot; target=&quot;_blank&quot;&gt;Relay.app&lt;/a&gt; for its intuitive design, simplified workflow setup and the amount of resources available online. The workflow (as shown in the screenshot below) is straightforward: the agent is triggered every day at 8am; it checks the RSS feed of Die Zeit (a leading German news provider); an AI model then rewrites the news item to my B2 proficiency level, including vocabulary and grammar explanations in English; and finally, an email is sent to me.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/ai_workflow.png&quot;&gt;&lt;img src=&quot;/public/ai_workflow.png&quot; alt=&quot;Photo of an AI agent workflow on Relay.app&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For those interested in the prompt mechanics, I have included the prompt as well. I opted to use Gemini’s 2.5 Flash as it is generally known to be good at language-related tasks (Relay.app gives the option to choose your model).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Pick 3 current news items and rewrite them so they are accessible to someone working towards a B2 CEFR level in German.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Rewriting Guidelines:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Length: Each news item should be 4-6 sentences (60-100 words) to provide sufficient context and detail.&lt;/li&gt;
+    &lt;li&gt;Use simple sentence structures while maintaining key information.&lt;/li&gt;
+    &lt;li&gt;Limit sentences to 15-20 words maximum.&lt;/li&gt;
+    &lt;li&gt;Replace complex vocabulary with B2-appropriate alternatives.&lt;/li&gt;
+    &lt;li&gt;Maintain factual accuracy while simplifying language.&lt;/li&gt;
+    &lt;li&gt;Include essential details: &lt;strong&gt;who, what, when, where,&lt;/strong&gt; and basic &lt;strong&gt;why/how.&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;strong&gt;Vocabulary Highlighting:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Highlight words that are:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Above A2 level but essential for B2 comprehension.&lt;/li&gt;
+    &lt;li&gt;Key nouns, verbs, and adjectives central to understanding the news.&lt;/li&gt;
+    &lt;li&gt;Words with multiple meanings or specific contextual usage.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;strong&gt;Grammar Explanations:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Focus explanations on:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Grammar points that appear in your rewritten text.&lt;/li&gt;
+    &lt;li&gt;Common B2-level challenges (cases, verb positions, subordinate clauses).&lt;/li&gt;
+    &lt;li&gt;Maximum 2-3 grammar points per news item to avoid overwhelming learners.
+Write all grammar explanations in English for better comprehension.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Nachricht 1: Manager in der Türkei
+In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;strong&gt;vor Gericht&lt;/strong&gt;. Sie hatten Präsident Erdoğan &lt;strong&gt;kritisiert&lt;/strong&gt;. Aber jetzt, in der &lt;strong&gt;Krise&lt;/strong&gt;, braucht Erdoğan ihre Hilfe.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Vokabeln:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;stehen&lt;/strong&gt; (steht, stand, gestanden) – to stand; (here) to be (e.g., before a court)&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;vor Gericht&lt;/strong&gt; – before court / on trial&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;der Präsident&lt;/strong&gt; (die Präsidenten) – the president&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;die Krise&lt;/strong&gt; (die Krisen) – the crisis&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;strong&gt;Grammatik-Erklärung:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Verb Position in Main Clauses:&lt;/strong&gt; In a German main clause, the conjugated verb (in this case, &lt;em&gt;stehen&lt;/em&gt; - to stand/to be) always occupies the second position. For example: “In der Türkei stehen Manager vor Gericht.” (In Turkey, managers are on trial.)&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Dative with the Preposition “vor”:&lt;/strong&gt; The preposition “vor” (before/in front of) can take either the dative or accusative case. When used with “vor Gericht” (before court), it expresses a location or state, which is why the dative case is used (das Gericht becomes dem Gericht). If “vor” were used with the accusative case, it would express movement.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-bigger-picture&quot;&gt;The Bigger Picture:&lt;/h3&gt;
+
+&lt;p&gt;Building this individual AI agent is an indication of how future SaaS platforms might evolve: hyper-personalised and built by the consumer themselves. There are several implications to this. On one hand, I’d imagine that the one-size-fits-all solution embraced by most enterprise solutions might be disrupted as consumers can now themselves craft and build solutions that are tailored for their use cases. This also means that consumers should be more tech-savvy, explore options that enable them to build tools on their own and generally embrace a more product mindset.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, AI agents can transform how societies function. There is talk of hyper-personalised learning rather than fixed curricula in schools and solo entrepreneurs running million-dollar businesses with AI agents handling customer support, content creation, and daily operations while they focus on strategy and growth.&lt;/p&gt;
+
+&lt;p&gt;Whether these materialise in the short-term or not, we cannot deny that AI automation is going to have a real impact on how we get things done. So, food for thought: What would you build an AI agent to do for you?&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Cases, whiteboards, and lectures: reflections and lessons learned in university teaching</title>
