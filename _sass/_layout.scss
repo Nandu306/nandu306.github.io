@@ -39,6 +39,14 @@ footer {
   h2 {
     margin-bottom: 1em;
     font-size: 22px;
+    &::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 2px;
+      background-color: $border-color;
+      margin-bottom: 0.6em;
+    }
   }
   p {
     font-size: 18px;
