@@ -3,9 +3,19 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 
-main h2 {
+main h2,
+.building-section h2 {
   font-size: 22px;
   margin-bottom: 2em;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 2px;
+    background-color: $border-color;
+    margin-bottom: 0.6em;
+  }
 }
 
 .page,
@@ -70,6 +80,38 @@ img + em {
 }
 
 
+
+.building-section {
+  margin-bottom: 3em;
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 1.5em;
+  }
+}
+
+.project-card {
+  text-align: center;
+
+  h3 {
+    font-size: 18px;
+    margin-top: 0.75em;
+    margin-bottom: 0.25em;
+  }
+
+  p {
+    color: #8e8e8e;
+    line-height: 1.9;
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+.project-screenshot {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
 
 // Related posts
 .related {
