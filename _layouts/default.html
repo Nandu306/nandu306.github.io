@@ -56,24 +56,6 @@
             </div>
           {% endfor %}
         </div>
-        <!-- Pagination links -->
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <small style="padding:2px;">
-                <a href="{{ paginator.previous_page_path }}" class="previous">
-                Previous
-               </a>
-            </small>
-          {% else %}
-            <small style="padding:2px;"> <span class="previous">Previous</span> </small>
-          {% endif %}
-
-          {% if paginator.next_page %}
-            <small style="padding:2px;"> <a href="{{ paginator.next_page_path }}" class="next">Next</a> </small>
-          {% else %}
-            <small style="padding:2px;"> <span class="next ">Next</span> </small>
-          {% endif %}
-        </div>
       </main>
 
       <footer>
