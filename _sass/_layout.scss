@@ -22,8 +22,15 @@
       padding-right: 1em;
     }
   }
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
   i {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 

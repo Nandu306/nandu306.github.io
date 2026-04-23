@@ -6,7 +6,6 @@
 main h2,
 .building-section h2 {
   font-size: 22px;
-  margin-bottom: 2em;
 
   &::before {
     content: '';
@@ -16,6 +15,10 @@ main h2,
     background-color: $border-color;
     margin-bottom: 0.6em;
   }
+}
+
+main h2 {
+  margin-bottom: 2em;
 }
 
 .page,
