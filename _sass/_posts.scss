@@ -124,6 +124,81 @@ img + em {
   margin-bottom: 0;
 }
 
+.media-carousel {
+  margin-bottom: 1em;
+}
+
+.carousel-viewport {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.carousel-track-wrapper {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.carousel-slide {
+  min-width: 100%;
+
+  img {
+    width: 100%;
+    aspect-ratio: 402 / 245;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0;
+    display: block;
+  }
+
+  video {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+    display: block;
+  }
+}
+
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 0.65em;
+}
+
+.carousel-dot {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 50% !important;
+  background-color: $border-color !important;
+  background: $border-color !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  cursor: pointer;
+  @include transition(background-color 0.2s ease);
+
+  &.active {
+    background-color: $gray-4 !important;
+    background: $gray-4 !important;
+  }
+
+  &:hover:not(.active) {
+    background-color: $gray-2 !important;
+    background: $gray-2 !important;
+  }
+}
+
 // Related posts
 .related {
   padding-top: 2rem;

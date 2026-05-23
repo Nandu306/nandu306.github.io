@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nandu Rajagopala</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2026-04-23T10:37:05+02:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://nandu306.github.io//atom.xml" rel="self"/>
+ <link href="https://nandu306.github.io//"/>
+ <updated>2026-05-23T20:39:19+02:00</updated>
+ <id>https://nandu306.github.io/</id>
  <author>
    <name>Nandu Rajagopala</name>
    <email>nandu.rajagopala@cantab.net</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>From Apps to Agents: How AI is Becoming Personal</title>
-   <link href="http://localhost:4000/from-apps-to-ai-agents.html"/>
+   <link href="https://nandu306.github.io//from-apps-to-ai-agents.html"/>
    <updated>2025-05-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/from-apps-to-ai-agents</id>
+   <id>https://nandu306.github.io//from-apps-to-ai-agents</id>
    <content type="html">&lt;p&gt;If 2024 was about AI chat interfaces, 2025 is all about AI agents - digital elves that actually do some heavy-lifting on your behalf, personalised to your whims and fantasies, without your intervention. This could be anything from planning and booking a holiday to managing your social media presence or updating your CRM system with a new blog post.&lt;/p&gt;
 
 &lt;p&gt;But the implications go far beyond personal productivity - we’re talking about AI agents that could replace entire job functions, from research analysts to executive assistants. Although we are not really there yet in terms of a fully functioning AI agent (true AI agents would learn, adapt and make autonomous decisions), we are definitely in a position to automate set workflows.&lt;/p&gt;
@@ -100,9 +100,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Cases, whiteboards, and lectures: reflections and lessons learned in university teaching</title>
-   <link href="http://localhost:4000/reflections-and-lessons-learned-in-university-teaching.html"/>
+   <link href="https://nandu306.github.io//reflections-and-lessons-learned-in-university-teaching.html"/>
    <updated>2024-05-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/reflections-and-lessons-learned-in-university-teaching</id>
+   <id>https://nandu306.github.io//reflections-and-lessons-learned-in-university-teaching</id>
    <content type="html">&lt;p&gt;As far as new learnings and experiences go, this month is a milestone of sorts. To put it in a nutshell: I just finished teaching my first semester as an adjunct lecturer at a university of applied sciences in Berlin. It wasn’t exactly pre-planned; the opportunity, in all honesty, fell into my lap and I embraced it as another useful addition to my portfolio of skills and experiences.&lt;/p&gt;
 
 &lt;p&gt;From leading case sessions to conducting mini-workshops to responding in real-time to issues that sprang up, I thought I’d pen down some things that I’d learned, observed, and mulled over as a new lecturer.&lt;/p&gt;
@@ -133,9 +133,9 @@ In der Türkei &lt;strong&gt;stehen&lt;/strong&gt; einige wichtige Manager &lt;s
  
  <entry>
    <title>Launching a startup — some key lessons learned</title>
-   <link href="http://localhost:4000/launching-a-startup-some-key-lessons-learned.html"/>
+   <link href="https://nandu306.github.io//launching-a-startup-some-key-lessons-learned.html"/>
    <updated>2024-04-01T00:00:00+02:00</updated>
-   <id>http://localhost:4000/launching-a-startup-some-key-lessons-learned</id>
+   <id>https://nandu306.github.io//launching-a-startup-some-key-lessons-learned</id>
    <content type="html">&lt;p&gt;I spent the second half of 2023 building ScienceQuests (a gamified web app to help kids learn science) and exploring ways of making online learning more effective and engaging for kids. Having spent some time researching how people learn, talking to potential users, building/testing a prototype, and refining my pitch for a competitive startup grant that I was shortlisted for, I thought I’d summarise some lessons that I learnt from the overall experience.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/public/Prototype.png&quot;&gt;&lt;img src=&quot;/public/Prototype.png&quot; alt=&quot;ScienceQuests prototype&quot; /&gt;&lt;/a&gt;

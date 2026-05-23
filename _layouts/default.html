@@ -32,13 +32,59 @@
       <section class="building-section">
         <h2>What I'm building</h2>
         <div class="project-card">
-          <a href="https://www.sprachelo.com/" target="_blank">
-            <img src="{{ site.baseurl }}/public/sprachelo_screenshot.png" alt="Sprachelo — AI-powered German language learning" class="project-screenshot">
-          </a>
+          <div class="media-carousel">
+            <div class="carousel-viewport">
+              <div class="carousel-track-wrapper">
+                <div class="carousel-track">
+                  <div class="carousel-slide">
+                    <video controls muted playsinline loop preload="metadata" class="project-video">
+                      <source src="{{ site.baseurl }}/public/sprachelo-video.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="carousel-slide">
+                    <a href="https://www.sprachelo.com/" target="_blank">
+                      <img src="{{ site.baseurl }}/public/sprachelo_screenshot.png" alt="Sprachelo — AI-powered German language learning" class="project-screenshot">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-dots">
+              <button type="button" class="carousel-dot active" data-index="0" aria-label="Video"></button>
+              <button type="button" class="carousel-dot" data-index="1" aria-label="Screenshot"></button>
+            </div>
+          </div>
           <h3><a href="https://www.sprachelo.com/" target="_blank">Sprachelo</a></h3>
           <p>AI speaking coach for German exam prep. Identifies your weak spots and gives you targeted feedback against official exam criteria.</p>
         </div>
       </section>
+
+      <script>
+        (function () {
+          var track = document.querySelector('.carousel-track');
+          var slides = document.querySelectorAll('.carousel-slide');
+          var dots = document.querySelectorAll('.carousel-dot');
+          var current = 0;
+
+          function goTo(index) {
+            slides.forEach(function (slide) {
+              var vid = slide.querySelector('video');
+              if (vid) vid.pause();
+            });
+            current = index;
+            track.style.transform = 'translateX(-' + (100 * current) + '%)';
+            dots.forEach(function (dot, i) {
+              dot.classList.toggle('active', i === current);
+            });
+            var activeVid = slides[current].querySelector('video');
+            if (activeVid) activeVid.play().catch(function () {});
+          }
+
+          dots.forEach(function (dot, i) { dot.addEventListener('click', function () { goTo(i); }); });
+
+          goTo(0);
+        })();
+      </script>
 
       <main id=article-section>
         <h2>Writing</h2>
