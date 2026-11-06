@@ -92,9 +92,19 @@
               <div class="carousel-track-wrapper">
                 <div class="carousel-track">
                   <div class="carousel-slide">
-                    <video controls muted playsinline loop preload="metadata" poster="/public/sprachelo-video-poster.png" class="project-video">
-                      <source src="/public/sprachelo-video.mp4" type="video/mp4">
-                    </video>
+                    <div class="video-cover">
+                      <video playsinline preload="none" class="project-video">
+                        <source src="/public/sprachelo-video.mp4" type="video/mp4">
+                      </video>
+                      <div class="video-cover-poster" aria-hidden="true">
+                        <div class="video-cover-title">See how a session works</div>
+                        <div class="video-cover-icon"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l12.5-7.5z" fill="#fff"/></svg></div>
+                        <div class="video-cover-peek">
+                          <svg viewBox="0 0 299 320"><path d="M120.65 38.1497C125.65 -11.8503 145.65 -11.8503 150.65 33.1497C170.65 -1.85032 190.65 8.14968 185.65 48.1497C225.65 -11.8503 250.65 8.14968 215.65 63.1497C265.65 48.1497 285.65 73.1497 240.65 103.15C290.65 118.15 295.65 148.15 255.65 163.15C315.65 183.15 310.65 218.15 250.65 223.15C290.65 263.15 265.65 288.15 220.65 263.15C230.65 308.15 200.65 323.15 175.65 278.15C165.65 328.15 135.65 333.15 125.65 283.15C105.65 338.15 75.6496 328.15 85.6496 268.15C50.6496 308.15 25.6496 278.15 50.6496 238.15C5.64964 243.15 -4.35036 213.15 35.6496 188.15C-14.3504 168.15 -9.35036 138.15 35.6496 128.15C-9.35036 98.1497 10.6496 73.1497 50.6496 93.1497C35.6496 48.1497 60.6496 33.1497 85.6496 68.1497C90.6496 18.1497 115.65 18.1497 120.65 38.1497Z" fill="#B7C30A"/><ellipse cx="114.049" cy="131.287" rx="22.4" ry="33.1375" fill="#fff"/><ellipse cx="182.856" cy="131.287" rx="22.4" ry="33.1375" fill="#fff"/><ellipse cx="116" cy="126" rx="11.2" ry="11.0458" fill="#1E1E1C"/><ellipse cx="185" cy="126" rx="11.2" ry="11.0458" fill="#1E1E1C"/></svg>
+                        </div>
+                      </div>
+                      <button class="video-cover-play" type="button" aria-label="Play the video with sound"></button>
+                    </div>
                   </div>
                   <div class="carousel-slide">
                     <a href="https://www.sprachelo.com/" target="_blank">
@@ -114,6 +124,15 @@
         </div>
       </section>
 
+      <div class="video-overlay" role="dialog" aria-modal="true" aria-label="Product demo" hidden>
+        <video class="video-overlay-video" playsinline controls preload="none">
+          <source src="/public/sprachelo-video-phone.mp4" type="video/mp4">
+        </video>
+        <button class="video-overlay-close" type="button" aria-label="Close the video">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+
       <script>
         (function () {
           var track = document.querySelector('.carousel-track');
@@ -131,13 +150,48 @@
             dots.forEach(function (dot, i) {
               dot.classList.toggle('active', i === current);
             });
-            var activeVid = slides[current].querySelector('video');
-            if (activeVid) activeVid.play().catch(function () {});
           }
 
           dots.forEach(function (dot, i) { dot.addEventListener('click', function () { goTo(i); }); });
 
-          goTo(0);
+          var cover = document.querySelector('.video-cover');
+          var coverVideo = cover.querySelector('video');
+          var coverPlay = cover.querySelector('.video-cover-play');
+          var overlay = document.querySelector('.video-overlay');
+          var overlayVideo = overlay.querySelector('video');
+          var overlayClose = overlay.querySelector('.video-overlay-close');
+
+          // Phones get the vertical demo in an overlay, since the 16:9 one is
+          // tiny inside the card. Same breakpoint as sprachelo.com.
+          coverPlay.addEventListener('click', function () {
+            if (window.matchMedia('(max-width: 640px)').matches) {
+              overlay.hidden = false;
+              document.body.style.overflow = 'hidden';
+              overlayClose.focus();
+              overlayVideo.play().catch(function () {});
+            } else {
+              coverVideo.controls = true;
+              cover.classList.add('playing');
+              coverVideo.play().catch(function () {});
+            }
+          });
+
+          function closeOverlay() {
+            if (overlay.hidden) return;
+            overlayVideo.pause();
+            overlay.hidden = true;
+            document.body.style.overflow = '';
+            coverPlay.focus();
+          }
+
+          overlayClose.addEventListener('click', closeOverlay);
+          overlayVideo.addEventListener('ended', closeOverlay);
+          overlay.addEventListener('click', function (event) {
+            if (event.target === overlay) closeOverlay();
+          });
+          document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') closeOverlay();
+          });
         })();
       </script>
 
@@ -147,7 +201,7 @@
           
             <div class="post-post">
               <small> MAY 2025</small>
-              <h3><a href="/from-apps-to-ai-agents.html" target="_blank">From Apps to Agents: How AI is Becoming Personal</a></h3>
+              <h3><a href="/from-apps-to-ai-agents.html">From Apps to Agents: How AI is Becoming Personal</a></h3>
 
               <div>
                 <p> How I built an AI agent for German learning and what it signals about the future of personalised software </p>
@@ -156,7 +210,7 @@
           
             <div class="post-post">
               <small> MAY 2024</small>
-              <h3><a href="/reflections-and-lessons-learned-in-university-teaching.html" target="_blank">Cases, whiteboards, and lectures: reflections and lessons learned in university teaching</a></h3>
+              <h3><a href="/reflections-and-lessons-learned-in-university-teaching.html">Cases, whiteboards, and lectures: reflections and lessons learned in university teaching</a></h3>
 
               <div>
                 <p> Challenges, learnings, and evolving dynamics in higher education from the perspective of a new lecturer. </p>
@@ -165,7 +219,7 @@
           
             <div class="post-post">
               <small> APR 2024</small>
-              <h3><a href="/launching-a-startup-some-key-lessons-learned.html" target="_blank">Launching a startup — some key lessons learned</a></h3>
+              <h3><a href="/launching-a-startup-some-key-lessons-learned.html">Launching a startup — some key lessons learned</a></h3>
 
               <div>
                 <p> Notes, tips and insights from building ScienceQuests, a gamified web app to help kids learn science. </p>
@@ -173,6 +227,7 @@
             </div>
           
         </div>
+        <p class="archive-link"><a href="/posts.html">See all writing &rarr;</a></p>
       </main>
 
       <footer>
@@ -185,7 +240,7 @@
         </p>
 
         <p class="copyright">
-          <!-- &copy; <time datetime="2026-05-24T21:46:42+02:00">2026</time>. -->
+          <!-- &copy; <time datetime="2026-11-06T19:56:43+01:00">2026</time>. -->
           © Nandu Rajagopala 2026
         </p>
       </footer>

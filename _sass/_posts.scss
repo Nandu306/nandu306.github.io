@@ -46,7 +46,7 @@ main h2 {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: $muted;
 }
 
 img + em {
@@ -67,14 +67,14 @@ img + em {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.08em;
-    color: #aaaaaa;
+    color: $muted-label;
   }
   h3 {
     font-size: 18px;
     margin-top: 0.3em;
   }
   p {
-    color: #8e8e8e;
+    color: $muted;
     margin: 8px 0 0 0;
     line-height: 1.9;
     font-size: 16px;
@@ -90,7 +90,9 @@ img + em {
   line-height: 2;
 }
 
-
+.archive-link {
+  margin-top: 0.5em;
+}
 
 .building-section {
   margin-bottom: 3em;
@@ -111,7 +113,7 @@ img + em {
   }
 
   p {
-    color: #8e8e8e;
+    color: $muted;
     line-height: 1.9;
     font-size: 16px;
     margin: 0;
@@ -151,7 +153,7 @@ img + em {
 
   img {
     width: 100%;
-    aspect-ratio: 402 / 245;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 5px;
     margin: 0;
@@ -164,6 +166,150 @@ img + em {
     margin: 0;
     display: block;
   }
+}
+
+// The Sprachelo demo's click-to-play cover, matched to the cover on
+// sprachelo.com. The off-white is the demo's own background, so the card
+// doesn't change color when the video starts.
+.video-cover {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #F5F4F2;
+
+  video {
+    height: 100%;
+    object-fit: cover;
+    visibility: hidden;
+  }
+
+  &.playing {
+    video { visibility: visible; }
+    .video-cover-poster, .video-cover-play { display: none; }
+  }
+
+  &:hover .video-cover-icon { transform: scale(1.06); }
+
+  // Doubled-up selector so this outranks Foundation's button:hover styles.
+  .video-cover-play {
+    all: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 2;
+
+    &:focus-visible {
+      outline: 2px solid $accent;
+      outline-offset: -5px;
+    }
+  }
+}
+
+.video-cover-poster {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9em;
+  padding: 0 14px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.video-cover-title {
+  font-weight: 600;
+  font-size: clamp(1.05rem, 3.4vw, 1.4rem);
+  line-height: 1.2;
+  color: #1E1E1C;
+}
+
+.video-cover-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #1E1E1C;
+  display: grid;
+  place-items: center;
+  @include transition(transform 0.2s);
+
+  svg {
+    width: 22px;
+    height: 22px;
+    margin-left: 3px;
+  }
+}
+
+.video-cover-peek {
+  position: absolute;
+  bottom: 0;
+  right: 9%;
+  width: 17%;
+  transform: translateY(46%) rotate(-6deg);
+
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Sits outside the carousel: the track's transform would otherwise pin this
+// to the track instead of the screen.
+.video-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 56px 16px 16px;
+  background: rgba(30, 30, 28, 0.94);
+
+  &[hidden] { display: none; }
+
+  // Doubled-up selector so this outranks Foundation's button:hover styles.
+  .video-overlay-close {
+    all: unset;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.16);
+    cursor: pointer;
+
+    &:focus-visible { outline: 2px solid #fff; }
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.video-overlay-video {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 736 / 1644;
+  border-radius: 5px;
+  background: #000;
 }
 
 
@@ -186,49 +332,24 @@ img + em {
   box-shadow: none !important;
   padding: 0 !important;
   cursor: pointer;
+  outline: none;
   @include transition(background-color 0.2s ease);
 
+  // Keyboard focus still gets a visible ring (in the accent color, not the
+  // browser default blue) so Tab-navigation isn't invisible; mouse clicks
+  // never trigger :focus-visible, so this doesn't change the visual you see.
+  &:focus-visible {
+    outline: 2px solid $accent;
+    outline-offset: 3px;
+  }
+
   &.active {
-    background-color: $gray-4 !important;
-    background: $gray-4 !important;
+    background-color: $accent !important;
+    background: $accent !important;
   }
 
   &:hover:not(.active) {
     background-color: $gray-2 !important;
     background: $gray-2 !important;
-  }
-}
-
-// Related posts
-.related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-.related-posts {
-  padding-left: 0;
-  list-style: none;
-
-  h3 {
-    margin-top: 0;
-  }
-
-  li {
-    small {
-      font-size: 75%;
-      color: #999;
-    }
-
-    a:hover {
-      color: #268bd2;
-      text-decoration: none;
-
-      small {
-        color: inherit;
-      }
-    }
   }
 }

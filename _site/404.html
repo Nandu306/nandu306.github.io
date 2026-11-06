@@ -62,103 +62,26 @@
 
   <div class="row">
     <div class="large-12 large-centered columns">
-
-      <header class="masthead">
-        <img src="/public/profile.png" alt="Nandu Rajagopala">
+      <header class="masthead2">
+        <a href="/"><img src="/public/profile.png" alt="Nandu Rajagopala"></a>
       </header>
-
     </div>
   </div>
 
   <div class="row">
 
-    <div class="large-6 large-offset-3 columns">
+    <div class="large-6 large-offset-3 columns main-container">
 
-      <div class="content-section">
-        <p>
-          Hi 👋🏽, I'm Nandu — a founder and product builder based in Berlin. I take consumer products from zero to launch: finding the right users, testing assumptions, and shipping. I've also taught entrepreneurship and innovation at university level.
-        </p>
+      <main>
+        <div class="page">
+  <h1 class="page-title">Huh, nothing here.</h1>
+  <p class="lead">That link's gone stale, or I never finished writing it. Either way, you found the one page on this site I didn't plan for &mdash; <a href="/">head back home</a> and I'll take it from there.</p>
+</div>
 
-        <p>
-          I <a href="#article-section">write</a> about product discovery, user research, and building with AI.
-        </p>
-      </div>
-
-      <section class="building-section">
-        <h2>What I'm building</h2>
-        <div class="project-card">
-          <div class="media-carousel">
-            <div class="carousel-viewport">
-              <div class="carousel-track-wrapper">
-                <div class="carousel-track">
-                  <div class="carousel-slide">
-                    <video controls muted playsinline loop preload="metadata" poster="/public/sprachelo-video-poster.png" class="project-video">
-                      <source src="/public/sprachelo-video.mp4" type="video/mp4">
-                    </video>
-                  </div>
-                  <div class="carousel-slide">
-                    <a href="https://www.sprachelo.com/" target="_blank">
-                      <img src="/public/sprachelo_screenshot.png" alt="Sprachelo — AI-powered German language learning" class="project-screenshot">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-dots">
-              <button type="button" class="carousel-dot active" data-index="0" aria-label="Video"></button>
-              <button type="button" class="carousel-dot" data-index="1" aria-label="Screenshot"></button>
-            </div>
-          </div>
-          <h3><a href="https://www.sprachelo.com/" target="_blank">Sprachelo</a></h3>
-          <p>AI speaking coach for German exam prep. Identifies your weak spots and gives you targeted feedback against official exam criteria.</p>
-        </div>
-      </section>
-
-      <script>
-        (function () {
-          var track = document.querySelector('.carousel-track');
-          var slides = document.querySelectorAll('.carousel-slide');
-          var dots = document.querySelectorAll('.carousel-dot');
-          var current = 0;
-
-          function goTo(index) {
-            slides.forEach(function (slide) {
-              var vid = slide.querySelector('video');
-              if (vid) vid.pause();
-            });
-            current = index;
-            track.style.transform = 'translateX(-' + (100 * current) + '%)';
-            dots.forEach(function (dot, i) {
-              dot.classList.toggle('active', i === current);
-            });
-            var activeVid = slides[current].querySelector('video');
-            if (activeVid) activeVid.play().catch(function () {});
-          }
-
-          dots.forEach(function (dot, i) { dot.addEventListener('click', function () { goTo(i); }); });
-
-          goTo(0);
-        })();
-      </script>
-
-      <main id=article-section>
-        <h2>Writing</h2>
-        <div>
-          
-        </div>
       </main>
 
-      <footer>
-        <h2>Get In Touch!</h2>
-
-        <p>
-          Send me an
-          <a href="mailto:nandu.rajagopala@cantab.net?Subject=Hello,%20Nandu!">email</a> or message me on
-          <a href="https://www.linkedin.com/in/nandurajagopala" target="_blank">Linkedin</a> if you’re into that sort of thing.
-        </p>
-
+      <footer class="footer-position">
         <p class="copyright">
-          <!-- &copy; <time datetime="2026-05-24T21:46:42+02:00">2026</time>. -->
           © Nandu Rajagopala 2026
         </p>
       </footer>
@@ -168,26 +91,24 @@
     <div class="large-2 large-offset-1 columns social">
       <ul>
         <li>
-          <a href="https://github.com/Nandu306" target="_blank" aria-label="GitHub">
-            <i class="fa fa-github" aria-hidden="true"></i>
+          <a href="https://github.com/Nandu306" target="_blank">
+            <i class="fa fa-github"></i>
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@nandurajagopala" target="_blank" aria-label="Medium">
-            <i class="fa fa-medium" aria-hidden="true"></i>
+          <a href="https://medium.com/@nandurajagopala" target="_blank">
+            <i class="fa fa-medium"></i>
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/in/nandurajagopala" target="_blank" aria-label="LinkedIn">
-           <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <a href="https://linkedin.com/in/nandurajagopala" target="_blank">
+           <i class="fa fa-linkedin"></i>
           </a>
         </li>
-
       </ul>
     </div>
 
   </div>
-
 
 </body>
 
